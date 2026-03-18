@@ -1,0 +1,10 @@
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+dist/
+coverage/
+*.log
+venv/
