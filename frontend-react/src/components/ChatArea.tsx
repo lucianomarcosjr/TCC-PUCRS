@@ -27,7 +27,7 @@ export function ChatArea() {
         id: msg.id,
         content: msg.content,
         customerId: msg.customer_id,
-        direction: msg.sender_type === 'CUSTOMER' ? 'INBOUND' : 'OUTBOUND',
+        direction: msg.sender_type?.toLowerCase() === 'customer' ? 'INBOUND' : 'OUTBOUND',
         channel: msg.channel || 'whatsapp',
         timestamp: new Date(msg.created_at),
         status: msg.status || 'SENT',
