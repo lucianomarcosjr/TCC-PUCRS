@@ -7,6 +7,8 @@ import { AnalyticsController } from '../controllers/AnalyticsController.js';
 import { CustomerController } from '../controllers/CustomerController.js';
 import { NotificationController } from '../controllers/NotificationController.js';
 import { UserController } from '../controllers/UserController.js';
+import { WhatsAppConnectionController } from '../controllers/WhatsAppConnectionController.js';
+import { AutomationController } from '../controllers/AutomationController.js';
 import { authMiddleware } from '../middlewares/auth.js';
 import { validate } from '../middlewares/validate.js';
 import { authLimiter } from '../middlewares/rateLimiter.js';
@@ -72,5 +74,19 @@ router.get('/users/profile', authMiddleware, (req, res) => userController.getPro
 router.put('/users/profile', authMiddleware, (req, res) => userController.updateProfile(req, res));
 router.put('/users/password', authMiddleware, (req, res) => userController.changePassword(req, res));
 router.post('/users/avatar', authMiddleware, (req, res) => userController.uploadAvatar(req, res));
+
+// Automations
+const automationController = new AutomationController();
+router.get('/automations', authMiddleware, (req, res) => automationController.list(req, res));
+router.post('/automations', authMiddleware, (req, res) => automationController.create(req, res));
+router.put('/automations/:id', authMiddleware, (req, res) => automationController.update(req, res));
+router.patch('/automations/:id/toggle', authMiddleware, (req, res) => automationController.toggle(req, res));
+router.delete('/automations/:id', authMiddleware, (req, res) => automationController.delete(req, res));
+
+// WhatsApp Connection
+const whatsappConnectionController = new WhatsAppConnectionController();
+router.get('/whatsapp/status', authMiddleware, (req, res) => whatsappConnectionController.getStatus(req, res));
+router.post('/whatsapp/connect', authMiddleware, (req, res) => whatsappConnectionController.connect(req, res));
+router.post('/whatsapp/disconnect', authMiddleware, (req, res) => whatsappConnectionController.disconnect(req, res));
 
 export default router;
