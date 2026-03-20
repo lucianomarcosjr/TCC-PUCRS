@@ -1,10 +1,6 @@
 import { Request, Response } from 'express';
-import { WhatsAppService } from '../services/WhatsAppService';
-import { ChatLogService } from '../services/ChatLogService';
-import { pool } from '../config/database';
-
-const whatsappService = new WhatsAppService();
-const chatLogService = new ChatLogService();
+import { whatsappConnection } from '../services/WhatsAppConnectionService.js';
+import { pool } from '../config/database.js';
 
 export class MessageController {
   async send(req: Request, res: Response) {
@@ -12,6 +8,7 @@ export class MessageController {
       const { conversationId, content, type = 'text' } = req.body;
       const { userId } = req.user!;
 
+      // Save message to DB
       const result = await pool.query(
         `INSERT INTO messages (conversation_id, sender_type, sender_id, content)
          VALUES ($1, $2, $3, $4) RETURNING *`,
@@ -22,6 +19,26 @@ export class MessageController {
         'UPDATE conversations SET last_message_at = NOW(), updated_at = NOW() WHERE id = $1',
         [conversationId]
       );
+
+      // Send via WhatsApp if connected
+      const waState = whatsappConnection.getState();
+      if (waState.status === 'connected') {
+        const convResult = await pool.query(
+          `SELECT c.phone, c.whatsapp_id FROM customers c
+           JOIN conversations conv ON conv.customer_id = c.id
+           WHERE conv.id = $1`,
+          [conversationId]
+        );
+
+        const sendTo = convResult.rows[0]?.whatsapp_id || convResult.rows[0]?.phone;
+        if (sendTo) {
+          try {
+            await whatsappConnection.sendMessage(sendTo, content);
+          } catch (waError) {
+            console.error('WhatsApp send failed (message saved to DB):', waError);
+          }
+        }
+      }
 
       res.json(result.rows[0]);
     } catch (error: any) {
