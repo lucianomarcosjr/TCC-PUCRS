@@ -7,6 +7,8 @@ import { AnalyticsController } from '../controllers/AnalyticsController.js';
 import { CustomerController } from '../controllers/CustomerController.js';
 import { NotificationController } from '../controllers/NotificationController.js';
 import { UserController } from '../controllers/UserController.js';
+import { WhatsAppConnectionController } from '../controllers/WhatsAppConnectionController.js';
+import { AutomationController } from '../controllers/AutomationController.js';
 import { authMiddleware } from '../middlewares/auth.js';
 import { validate } from '../middlewares/validate.js';
 import { authLimiter } from '../middlewares/rateLimiter.js';
@@ -32,6 +34,7 @@ router.post('/conversations', authMiddleware, (req, res) => conversationControll
 router.get('/conversations/:id', authMiddleware, (req, res) => conversationController.getById(req, res));
 router.patch('/conversations/:id/assign', authMiddleware, validate(assignConversationSchema), (req, res) => conversationController.assign(req, res));
 router.patch('/conversations/:id/close', authMiddleware, (req, res) => conversationController.close(req, res));
+router.post('/conversations/:id/rate', authMiddleware, (req, res) => conversationController.rate(req, res));
 
 // Webhook
 const webhookController = new WebhookController();
@@ -45,6 +48,7 @@ router.get('/messages/:conversationId', authMiddleware, (req, res) => messageCon
 
 // Analytics
 const analyticsController = new AnalyticsController();
+router.get('/analytics/dashboard', authMiddleware, (req, res) => analyticsController.dashboard(req, res));
 router.get('/analytics/conversations/:conversationId/logs', authMiddleware, auditLog('view_logs'), (req, res) => analyticsController.getConversationLogs(req, res));
 router.get('/analytics/users/:userId/activity', authMiddleware, auditLog('view_activity'), (req, res) => analyticsController.getUserActivity(req, res));
 router.get('/analytics/events/:event', authMiddleware, auditLog('view_events'), (req, res) => analyticsController.getEventStats(req, res));
@@ -72,5 +76,19 @@ router.get('/users/profile', authMiddleware, (req, res) => userController.getPro
 router.put('/users/profile', authMiddleware, (req, res) => userController.updateProfile(req, res));
 router.put('/users/password', authMiddleware, (req, res) => userController.changePassword(req, res));
 router.post('/users/avatar', authMiddleware, (req, res) => userController.uploadAvatar(req, res));
+
+// Automations
+const automationController = new AutomationController();
+router.get('/automations', authMiddleware, (req, res) => automationController.list(req, res));
+router.post('/automations', authMiddleware, (req, res) => automationController.create(req, res));
+router.put('/automations/:id', authMiddleware, (req, res) => automationController.update(req, res));
+router.patch('/automations/:id/toggle', authMiddleware, (req, res) => automationController.toggle(req, res));
+router.delete('/automations/:id', authMiddleware, (req, res) => automationController.delete(req, res));
+
+// WhatsApp Connection
+const whatsappConnectionController = new WhatsAppConnectionController();
+router.get('/whatsapp/status', authMiddleware, (req, res) => whatsappConnectionController.getStatus(req, res));
+router.post('/whatsapp/connect', authMiddleware, (req, res) => whatsappConnectionController.connect(req, res));
+router.post('/whatsapp/disconnect', authMiddleware, (req, res) => whatsappConnectionController.disconnect(req, res));
 
 export default router;

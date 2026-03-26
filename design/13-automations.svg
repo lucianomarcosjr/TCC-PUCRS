@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs><style>text{font-family:'Inter',sans-serif}</style></defs>
+  <rect width="1440" height="900" fill="#fafafa"/>
+  <!-- Sidebar -->
+  <rect width="240" height="900" fill="#111827"/>
+  <text x="28" y="40" fill="#fff" font-size="20" font-weight="700">🌀 OmniFlow</text>
+  <line x1="16" y1="56" x2="224" y2="56" stroke="#1f2937"/>
+  <g fill="#9ca3af" font-size="14">
+    <text x="28" y="84">💬  Conversas</text>
+    <text x="28" y="116">👥  Clientes</text>
+    <text x="28" y="148">📊  Analytics</text>
+    <text x="28" y="180">🔔  Notificações</text>
+  </g>
+  <rect x="8" y="190" width="224" height="36" rx="8" fill="#6366f1" opacity="0.15"/>
+  <text x="28" y="213" fill="#6366f1" font-size="14" font-weight="600">⚡  Automações</text>
+  <text x="28" y="245" fill="#9ca3af" font-size="14">📄  Relatórios</text>
+  <line x1="16" y1="268" x2="224" y2="268" stroke="#1f2937"/>
+  <g fill="#6b7280" font-size="13">
+    <text x="28" y="296">⚙️  Configurações</text>
+    <text x="28" y="324">👤  Perfil</text>
+    <text x="28" y="352">❓  Ajuda</text>
+  </g>
+  <rect x="12" y="844" width="216" height="44" rx="10" fill="#1f2937"/>
+  <circle cx="36" cy="866" r="14" fill="#6366f1"/>
+  <text x="36" y="870" fill="#fff" font-size="10" text-anchor="middle">LF</text>
+  <text x="58" y="862" fill="#e5e7eb" font-size="12" font-weight="600">Luciano F.</text>
+  <text x="58" y="878" fill="#6b7280" font-size="10">Admin</text>
+
+  <!-- Main -->
+  <g transform="translate(240,0)">
+    <rect width="1200" height="56" fill="#fff"/>
+    <line x1="0" y1="56" x2="1200" y2="56" stroke="#e5e7eb"/>
+    <text x="32" y="35" fill="#9ca3af" font-size="12">Dashboard &gt; Automações</text>
+
+    <!-- Header -->
+    <text x="32" y="100" fill="#111827" font-size="24" font-weight="700">Automações</text>
+    <text x="32" y="120" fill="#6b7280" font-size="13">Automatize respostas e ações</text>
+    <rect x="1000" y="80" width="160" height="40" rx="8" fill="#6366f1"/>
+    <text x="1080" y="105" fill="#fff" font-size="14" font-weight="600" text-anchor="middle">+ Nova Automação</text>
+
+    <!-- Card 1: Boas-vindas (active) -->
+    <g transform="translate(32,148)">
+      <rect width="1120" height="150" rx="12" fill="#fff" stroke="#e5e7eb"/>
+      <text x="24" y="32" fill="#111827" font-size="16" font-weight="700">🎉 Boas-vindas</text>
+      <!-- Toggle ON -->
+      <rect x="1040" y="14" width="44" height="24" rx="12" fill="#10b981"/>
+      <circle cx="1072" cy="26" r="9" fill="#fff"/>
+      <!-- Flow -->
+      <text x="24" y="60" fill="#6b7280" font-size="12" font-weight="600">Quando:</text>
+      <rect x="80" y="46" width="130" height="24" rx="6" fill="#eef2ff"/>
+      <text x="90" y="63" fill="#6366f1" font-size="12">Nova conversa</text>
+      <text x="224" y="63" fill="#9ca3af" font-size="16">→</text>
+      <text x="250" y="60" fill="#6b7280" font-size="12" font-weight="600">Então:</text>
+      <rect x="296" y="46" width="150" height="24" rx="6" fill="#f0fdf4"/>
+      <text x="306" y="63" fill="#10b981" font-size="12">Enviar mensagem</text>
+      <!-- Message preview -->
+      <rect x="24" y="80" width="1072" height="28" rx="6" fill="#f9fafb"/>
+      <text x="36" y="99" fill="#6b7280" font-size="12" font-style="italic">"Olá! Bem-vindo ao OmniFlow. Como posso ajudar?"</text>
+      <!-- Schedule + buttons -->
+      <text x="24" y="134" fill="#9ca3af" font-size="12">🕐 Seg-Sex • 08:00-18:00</text>
+      <rect x="960" y="116" width="70" height="28" rx="6" fill="none" stroke="#d1d5db"/>
+      <text x="995" y="135" fill="#6b7280" font-size="12" text-anchor="middle">Editar</text>
+      <rect x="1040" y="116" width="70" height="28" rx="6" fill="none" stroke="#fecaca"/>
+      <text x="1075" y="135" fill="#ef4444" font-size="12" text-anchor="middle">Excluir</text>
+    </g>
+
+    <!-- Card 2: Fora do Horário (active) -->
+    <g transform="translate(32,310)">
+      <rect width="1120" height="150" rx="12" fill="#fff" stroke="#e5e7eb"/>
+      <text x="24" y="32" fill="#111827" font-size="16" font-weight="700">⏰ Fora do Horário</text>
+      <rect x="1040" y="14" width="44" height="24" rx="12" fill="#10b981"/>
+      <circle cx="1072" cy="26" r="9" fill="#fff"/>
+      <text x="24" y="60" fill="#6b7280" font-size="12" font-weight="600">Quando:</text>
+      <rect x="80" y="46" width="130" height="24" rx="6" fill="#eef2ff"/>
+      <text x="90" y="63" fill="#6366f1" font-size="12">Nova conversa</text>
+      <text x="224" y="63" fill="#9ca3af" font-size="16">→</text>
+      <text x="250" y="60" fill="#6b7280" font-size="12" font-weight="600">Então:</text>
+      <rect x="296" y="46" width="150" height="24" rx="6" fill="#f0fdf4"/>
+      <text x="306" y="63" fill="#10b981" font-size="12">Enviar mensagem</text>
+      <rect x="24" y="80" width="1072" height="28" rx="6" fill="#f9fafb"/>
+      <text x="36" y="99" fill="#6b7280" font-size="12" font-style="italic">"Estamos fora do horário. Retornaremos em breve!"</text>
+      <text x="24" y="134" fill="#9ca3af" font-size="12">🕐 Seg-Sex • 08:00-18:00</text>
+      <rect x="960" y="116" width="70" height="28" rx="6" fill="none" stroke="#d1d5db"/>
+      <text x="995" y="135" fill="#6b7280" font-size="12" text-anchor="middle">Editar</text>
+      <rect x="1040" y="116" width="70" height="28" rx="6" fill="none" stroke="#fecaca"/>
+      <text x="1075" y="135" fill="#ef4444" font-size="12" text-anchor="middle">Excluir</text>
+    </g>
+
+    <!-- Card 3: Tag Urgente (inactive) -->
+    <g transform="translate(32,472)" opacity="0.5">
+      <rect width="1120" height="150" rx="12" fill="#fff" stroke="#e5e7eb"/>
+      <text x="24" y="32" fill="#111827" font-size="16" font-weight="700">🏷️ Tag Urgente</text>
+      <!-- Toggle OFF -->
+      <rect x="1040" y="14" width="44" height="24" rx="12" fill="#d1d5db"/>
+      <circle cx="1052" cy="26" r="9" fill="#fff"/>
+      <text x="24" y="60" fill="#6b7280" font-size="12" font-weight="600">Quando:</text>
+      <rect x="80" y="46" width="130" height="24" rx="6" fill="#eef2ff"/>
+      <text x="90" y="63" fill="#6366f1" font-size="12">Nova conversa</text>
+      <text x="224" y="63" fill="#9ca3af" font-size="16">→</text>
+      <text x="250" y="60" fill="#6b7280" font-size="12" font-weight="600">Então:</text>
+      <rect x="296" y="46" width="150" height="24" rx="6" fill="#f0fdf4"/>
+      <text x="306" y="63" fill="#10b981" font-size="12">Enviar mensagem</text>
+      <rect x="24" y="80" width="1072" height="28" rx="6" fill="#f9fafb"/>
+      <text x="36" y="99" fill="#6b7280" font-size="12" font-style="italic">"Seu caso foi marcado como urgente. Prioridade máxima!"</text>
+      <text x="24" y="134" fill="#9ca3af" font-size="12">🕐 Seg-Sex • 08:00-18:00</text>
+      <rect x="960" y="116" width="70" height="28" rx="6" fill="none" stroke="#d1d5db"/>
+      <text x="995" y="135" fill="#6b7280" font-size="12" text-anchor="middle">Editar</text>
+      <rect x="1040" y="116" width="70" height="28" rx="6" fill="none" stroke="#fecaca"/>
+      <text x="1075" y="135" fill="#ef4444" font-size="12" text-anchor="middle">Excluir</text>
+    </g>
+
+    <!-- Templates Section -->
+    <text x="32" y="660" fill="#111827" font-size="18" font-weight="700">Templates Populares</text>
+    <!-- Template 1 -->
+    <g transform="translate(32,676)">
+      <rect width="350" height="110" rx="10" fill="#fff" stroke="#e5e7eb"/>
+      <text x="20" y="30" fill="#111827" font-size="14" font-weight="600">🚀 Onboarding</text>
+      <text x="20" y="52" fill="#6b7280" font-size="12">Guie novos clientes com</text>
+      <text x="20" y="68" fill="#6b7280" font-size="12">mensagens automáticas</text>
+      <rect x="20" y="80" width="110" height="24" rx="6" fill="#eef2ff"/>
+      <text x="75" y="96" fill="#6366f1" font-size="12" text-anchor="middle">Usar Template</text>
+    </g>
+    <!-- Template 2 -->
+    <g transform="translate(402,676)">
+      <rect width="350" height="110" rx="10" fill="#fff" stroke="#e5e7eb"/>
+      <text x="20" y="30" fill="#111827" font-size="14" font-weight="600">⭐ Pesquisa NPS</text>
+      <text x="20" y="52" fill="#6b7280" font-size="12">Envie pesquisa de satisfação</text>
+      <text x="20" y="68" fill="#6b7280" font-size="12">após encerrar conversa</text>
+      <rect x="20" y="80" width="110" height="24" rx="6" fill="#eef2ff"/>
+      <text x="75" y="96" fill="#6366f1" font-size="12" text-anchor="middle">Usar Template</text>
+    </g>
+    <!-- Template 3 -->
+    <g transform="translate(772,676)">
+      <rect width="350" height="110" rx="10" fill="#fff" stroke="#e5e7eb"/>
+      <text x="20" y="30" fill="#111827" font-size="14" font-weight="600">📋 Follow-up</text>
+      <text x="20" y="52" fill="#6b7280" font-size="12">Acompanhe clientes inativos</text>
+      <text x="20" y="68" fill="#6b7280" font-size="12">há mais de 7 dias</text>
+      <rect x="20" y="80" width="110" height="24" rx="6" fill="#eef2ff"/>
+      <text x="75" y="96" fill="#6366f1" font-size="12" text-anchor="middle">Usar Template</text>
+    </g>
+  </g>
+</svg>

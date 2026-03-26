@@ -1,141 +1,147 @@
 .onboarding {
   min-height: 100vh;
+  background: #fafafa;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 2rem;
 }
 
 .onboarding-card {
-  background: var(--surface);
-  padding: 3rem;
+  background: white;
+  border: 1px solid #e5e7eb;
   border-radius: 16px;
-  box-shadow: var(--shadow-lg);
+  padding: 2.5rem;
   width: 100%;
   max-width: 600px;
+  text-align: center;
 }
 
 .progress-bar {
-  height: 8px;
-  background: var(--border);
-  border-radius: 4px;
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 3px;
+  margin-bottom: 1rem;
   overflow: hidden;
-  margin-bottom: 0.5rem;
 }
 
 .progress-fill {
   height: 100%;
-  background: var(--primary);
+  background: #6366f1;
+  border-radius: 3px;
   transition: width 0.3s;
 }
 
 .progress-text {
-  text-align: center;
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-  margin-bottom: 2rem;
-}
-
-.onboarding-content {
-  text-align: center;
+  font-size: 0.8125rem;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
 }
 
 .onboarding-content h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: var(--text);
-  margin-bottom: 1rem;
+  color: #111827;
+  margin-bottom: 0.75rem;
 }
 
 .onboarding-content h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--text);
-  margin-bottom: 1rem;
+  color: #111827;
+  margin-bottom: 0.75rem;
 }
 
 .onboarding-content p {
-  color: var(--text-secondary);
-  margin-bottom: 2rem;
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
 }
 
 .onboarding-content .form-group {
   text-align: left;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .onboarding-content .form-group label {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #374151;
   display: block;
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .onboarding-content .form-group input,
 .onboarding-content .form-group select {
   width: 100%;
-  padding: 0.75rem 1rem;
-  border: 1.5px solid var(--border);
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #d1d5db;
   border-radius: 8px;
-  font-size: 0.95rem;
+  font-size: 0.875rem;
 }
 
 .onboarding-content .form-group input:focus,
 .onboarding-content .form-group select:focus {
   outline: none;
-  border-color: var(--primary);
+  border-color: #6366f1;
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
 }
 
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
 .qr-placeholder {
-  margin: 2rem 0;
+  padding: 2rem;
+  margin: 1rem 0;
 }
 
 .qr-code {
   width: 200px;
   height: 200px;
-  margin: 0 auto 1rem;
-  background: var(--background);
-  border: 2px dashed var(--border);
-  border-radius: 10px;
+  background: #f3f4f6;
+  border: 2px dashed #d1d5db;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.875rem;
-  color: var(--text-secondary);
+  margin: 0 auto 1rem;
+  color: #9ca3af;
+  font-weight: 600;
 }
 
 .team-list {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .team-item {
   display: flex;
-  gap: 0.75rem;
-  margin-bottom: 1rem;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .team-item input {
   flex: 1;
-  padding: 0.75rem 1rem;
-  border: 1.5px solid var(--border);
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
   border-radius: 8px;
+  font-size: 0.875rem;
 }
 
 .team-item select {
-  padding: 0.75rem 1rem;
-  border: 1.5px solid var(--border);
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
   border-radius: 8px;
+  font-size: 0.875rem;
 }
 
-.button-group {
-  display: flex;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-.button-group button {
-  flex: 1;
+.btn-icon {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.875rem;
 }

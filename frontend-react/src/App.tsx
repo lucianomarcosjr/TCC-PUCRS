@@ -22,6 +22,8 @@ import { Profile } from '@/pages/Profile';
 import { Help } from '@/pages/Help';
 import { Automations } from '@/pages/Automations';
 import { Reports } from '@/pages/Reports';
+import { Channels } from '@/pages/Channels';
+import { Users } from '@/pages/Users';
 import './App.css';
 
 function PrivateRoute({ children }: { children: React.ReactNode }) {
@@ -123,6 +125,22 @@ function App() {
           element={
             <PrivateRoute>
               <NotificationSettings />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/settings/channels"
+          element={
+            <PrivateRoute>
+              <Channels />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/settings/users"
+          element={
+            <PrivateRoute>
+              <Users />
             </PrivateRoute>
           }
         />

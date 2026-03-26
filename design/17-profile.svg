@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" fill="none">
+<defs><style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');text{font-family:'Inter',sans-serif}</style></defs>
+<rect width="1440" height="900" fill="#fafafa"/>
+<!-- Sidebar -->
+<rect width="240" height="900" fill="#111827"/>
+<text x="28" y="38" fill="#fff" font-size="20" font-weight="700">⚡ OmniFlow</text>
+<line x1="16" y1="52" x2="224" y2="52" stroke="#1f2937"/>
+<text x="28" y="80" fill="#9ca3af" font-size="11" font-weight="600" letter-spacing="1">MENU</text>
+<text x="28" y="114" fill="#9ca3af" font-size="14">💬  Conversas</text>
+<text x="28" y="154" fill="#9ca3af" font-size="14">👥  Clientes</text>
+<text x="28" y="194" fill="#9ca3af" font-size="14">📊  Analytics</text>
+<text x="28" y="234" fill="#9ca3af" font-size="14">🔔  Notificações</text>
+<text x="28" y="274" fill="#9ca3af" font-size="14">⚡  Automações</text>
+<text x="28" y="314" fill="#9ca3af" font-size="14">📄  Relatórios</text>
+<line x1="16" y1="340" x2="224" y2="340" stroke="#1f2937"/>
+<text x="28" y="376" fill="#9ca3af" font-size="14">⚙️  Configurações</text>
+<rect x="8" y="392" width="224" height="36" rx="8" fill="#6366f1" opacity="0.15"/>
+<text x="28" y="416" fill="#6366f1" font-size="14" font-weight="600">👤  Perfil</text>
+<text x="28" y="456" fill="#9ca3af" font-size="14">❓  Ajuda</text>
+<rect x="8" y="840" width="224" height="52" rx="10" fill="#1f2937"/>
+<circle cx="34" cy="866" r="16" fill="#6366f1"/>
+<text x="30" y="871" fill="#fff" font-size="12" font-weight="600" text-anchor="middle">J</text>
+<text x="58" y="861" fill="#fff" font-size="13" font-weight="600">João Silva</text>
+<text x="58" y="877" fill="#9ca3af" font-size="11">joao@omniflow.com</text>
+<!-- Breadcrumb -->
+<text x="272" y="38" fill="#9ca3af" font-size="13">Dashboard  &gt;  <tspan fill="#6366f1" font-weight="500">Perfil</tspan></text>
+<!-- Header -->
+<text x="272" y="76" fill="#111827" font-size="22" font-weight="700">Meu Perfil</text>
+<text x="272" y="98" fill="#6b7280" font-size="14">Gerencie suas informações pessoais e segurança</text>
+<!-- Avatar Card -->
+<rect x="272" y="118" width="924" height="100" rx="12" fill="#fff" stroke="#e5e7eb"/>
+<circle cx="332" cy="168" r="36" fill="#6366f1"/>
+<text x="332" y="180" fill="#fff" font-size="26" font-weight="700" text-anchor="middle">J</text>
+<text x="386" y="158" fill="#111827" font-size="17" font-weight="700">João Silva</text>
+<text x="386" y="180" fill="#6b7280" font-size="13">joao@omniflow.com</text>
+<!-- Personal Info Card -->
+<rect x="272" y="236" width="924" height="220" rx="12" fill="#fff" stroke="#e5e7eb"/>
+<text x="296" y="268" fill="#111827" font-size="16" font-weight="700">Informações Pessoais</text>
+<text x="296" y="300" fill="#6b7280" font-size="12" font-weight="500">Nome Completo</text>
+<rect x="296" y="308" width="420" height="40" rx="8" fill="#fff" stroke="#d1d5db"/>
+<text x="312" y="334" fill="#111827" font-size="14">João Silva</text>
+<text x="740" y="300" fill="#6b7280" font-size="12" font-weight="500">Email</text>
+<rect x="740" y="308" width="420" height="40" rx="8" fill="#fff" stroke="#d1d5db"/>
+<text x="756" y="334" fill="#111827" font-size="14">joao@omniflow.com</text>
+<text x="296" y="374" fill="#6b7280" font-size="12" font-weight="500">Telefone</text>
+<rect x="296" y="382" width="420" height="40" rx="8" fill="#fff" stroke="#d1d5db"/>
+<text x="312" y="408" fill="#111827" font-size="14">+55 (11) 99999-0000</text>
+<rect x="296" y="432" width="150" height="36" rx="8" fill="#6366f1"/>
+<text x="371" y="456" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">Salvar Alterações</text>
+<!-- Security Card -->
+<rect x="272" y="474" width="924" height="190" rx="12" fill="#fff" stroke="#e5e7eb"/>
+<text x="296" y="506" fill="#111827" font-size="16" font-weight="700">Segurança</text>
+<text x="296" y="536" fill="#6b7280" font-size="12" font-weight="500">Senha Atual</text>
+<rect x="296" y="544" width="280" height="40" rx="8" fill="#fff" stroke="#d1d5db"/>
+<text x="312" y="570" fill="#9ca3af" font-size="14">••••••••</text>
+<text x="600" y="536" fill="#6b7280" font-size="12" font-weight="500">Nova Senha</text>
+<rect x="600" y="544" width="270" height="40" rx="8" fill="#fff" stroke="#d1d5db"/>
+<text x="616" y="570" fill="#9ca3af" font-size="14">••••••••</text>
+<text x="894" y="536" fill="#6b7280" font-size="12" font-weight="500">Confirmar Senha</text>
+<rect x="894" y="544" width="270" height="40" rx="8" fill="#fff" stroke="#d1d5db"/>
+<text x="910" y="570" fill="#9ca3af" font-size="14">••••••••</text>
+<rect x="296" y="600" width="130" height="36" rx="8" fill="#6366f1"/>
+<text x="361" y="624" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">Alterar Senha</text>
+<!-- Danger Zone -->
+<rect x="272" y="682" width="924" height="200" rx="12" fill="#fff" stroke="#ef4444" stroke-width="1.5"/>
+<text x="296" y="714" fill="#ef4444" font-size="16" font-weight="700">Zona de Perigo</text>
+<text x="296" y="740" fill="#6b7280" font-size="13">Esta ação é irreversível. Ao deletar sua conta:</text>
+<text x="312" y="764" fill="#6b7280" font-size="13">• Todas as suas conversas serão permanentemente removidas</text>
+<text x="312" y="786" fill="#6b7280" font-size="13">• Seus dados de clientes serão apagados</text>
+<text x="312" y="808" fill="#6b7280" font-size="13">• Suas automações e configurações serão perdidas</text>
+<text x="312" y="830" fill="#6b7280" font-size="13">• Não será possível recuperar nenhuma informação</text>
+<rect x="296" y="844" width="280" height="36" rx="8" fill="#ef4444"/>
+<text x="436" y="868" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">Deletar Conta Permanentemente</text>
+</svg>

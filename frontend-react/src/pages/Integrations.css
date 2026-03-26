@@ -1,111 +1,122 @@
 .integrations-page {
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 1.5rem 2rem;
 }
 
-.integrations-header {
-  margin-bottom: 3rem;
-}
-
-.integrations-header h1 {
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: var(--text);
-  margin-bottom: 0.5rem;
-}
-
-.integrations-header p {
-  color: var(--text-secondary);
-  font-size: 1rem;
-}
+.integrations-header h1 { font-size: 1.5rem; font-weight: 700; color: #111827; }
+.integrations-header p { color: #6b7280; font-size: 0.8125rem; margin-bottom: 1.5rem; }
 
 .integrations-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 3rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .integration-card {
-  background: var(--surface);
-  padding: 2rem;
-  border-radius: 10px;
-  border: 2px solid var(--border);
   display: flex;
-  flex-direction: column;
+  align-items: center;
   gap: 1rem;
-  transition: all 0.2s;
+  padding: 1.25rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
 }
 
-.integration-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
+.integration-card.connected { border-color: #10b981; }
 
-.integration-card.connected {
-  border-color: #10b981;
-  background: rgba(16, 185, 129, 0.02);
-}
+.integration-icon { font-size: 1.75rem; flex-shrink: 0; }
 
-.integration-icon {
-  font-size: 3rem;
-}
+.integration-info { flex: 1; }
+.integration-info h3 { font-size: 1rem; font-weight: 700; color: #111827; }
+.integration-info p { font-size: 0.75rem; color: #6b7280; }
 
-.integration-info h3 {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 0.5rem;
-}
-
-.integration-info p {
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-}
+.wa-connected-info { font-size: 0.75rem; color: #10b981; margin-top: 0.25rem; }
 
 .integration-status {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  margin-top: auto;
+  align-items: flex-end;
+  gap: 0.5rem;
 }
 
-.status-badge.connected {
-  background: rgba(16, 185, 129, 0.1);
-  color: #10b981;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  font-size: 0.875rem;
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 11px;
+  font-size: 0.6875rem;
   font-weight: 600;
-  text-align: center;
 }
+
+.status-badge.connected { background: #d1fae5; color: #059669; }
 
 .integration-docs {
-  background: var(--surface);
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.integration-docs h3 { font-size: 0.9375rem; font-weight: 600; color: #111827; margin-bottom: 0.25rem; }
+.integration-docs p { font-size: 0.75rem; color: #6b7280; }
+.integration-docs a { color: #6366f1; font-weight: 600; }
+
+/* QR Modal */
+.qr-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.qr-modal {
+  background: white;
+  border-radius: 16px;
   padding: 2rem;
-  border-radius: 10px;
+  width: 100%;
+  max-width: 420px;
   text-align: center;
-  border: 2px dashed var(--border);
+  position: relative;
 }
 
-.integration-docs h3 {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 0.5rem;
+.qr-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  background: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: #6b7280;
 }
 
-.integration-docs p {
-  color: var(--text-secondary);
+.qr-modal h2 { font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; }
+.qr-modal p { color: #6b7280; font-size: 0.875rem; margin-bottom: 1rem; }
+
+.qr-container { margin: 1.5rem 0; }
+.qr-container img { width: 256px; height: 256px; border-radius: 8px; }
+
+.qr-success-icon { font-size: 3rem; display: block; margin-bottom: 0.5rem; }
+.qr-loading { padding: 2rem; }
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #e5e7eb;
+  border-top-color: #6366f1;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 1rem;
 }
 
-.integration-docs a {
-  color: var(--primary);
-  font-weight: 600;
-  text-decoration: none;
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.qr-instructions {
+  text-align: left;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 8px;
 }
 
-.integration-docs a:hover {
-  text-decoration: underline;
-}
+.qr-instructions p { font-size: 0.8125rem; color: #374151; margin-bottom: 0.25rem; }

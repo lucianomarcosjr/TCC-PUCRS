@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs><style>text{font-family:'Inter',sans-serif}</style></defs>
+  <rect width="1440" height="900" fill="#fafafa"/>
+  <!-- Sidebar -->
+  <rect width="240" height="900" fill="#111827"/>
+  <text x="28" y="40" fill="#fff" font-size="20" font-weight="700">🌀 OmniFlow</text>
+  <line x1="16" y1="56" x2="224" y2="56" stroke="#1f2937"/>
+  <g fill="#9ca3af" font-size="14">
+    <text x="28" y="84">💬  Conversas</text>
+    <text x="28" y="116">👥  Clientes</text>
+    <text x="28" y="148">📊  Analytics</text>
+    <text x="28" y="180">🔔  Notificações</text>
+    <text x="28" y="212">⚡  Automações</text>
+  </g>
+  <rect x="8" y="222" width="224" height="36" rx="8" fill="#6366f1" opacity="0.15"/>
+  <text x="28" y="245" fill="#6366f1" font-size="14" font-weight="600">📄  Relatórios</text>
+  <line x1="16" y1="268" x2="224" y2="268" stroke="#1f2937"/>
+  <g fill="#6b7280" font-size="13">
+    <text x="28" y="296">⚙️  Configurações</text>
+    <text x="28" y="324">👤  Perfil</text>
+    <text x="28" y="352">❓  Ajuda</text>
+  </g>
+  <rect x="12" y="844" width="216" height="44" rx="10" fill="#1f2937"/>
+  <circle cx="36" cy="866" r="14" fill="#6366f1"/>
+  <text x="36" y="870" fill="#fff" font-size="10" text-anchor="middle">LF</text>
+  <text x="58" y="862" fill="#e5e7eb" font-size="12" font-weight="600">Luciano F.</text>
+  <text x="58" y="878" fill="#6b7280" font-size="10">Admin</text>
+
+  <!-- Main -->
+  <g transform="translate(240,0)">
+    <rect width="1200" height="56" fill="#fff"/>
+    <line x1="0" y1="56" x2="1200" y2="56" stroke="#e5e7eb"/>
+    <text x="32" y="35" fill="#9ca3af" font-size="12">Dashboard &gt; Relatórios</text>
+
+    <text x="32" y="100" fill="#111827" font-size="24" font-weight="700">Relatórios Avançados</text>
+    <rect x="1040" y="78" width="120" height="36" rx="8" fill="#6366f1"/>
+    <text x="1100" y="101" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">📥 Exportar</text>
+
+    <!-- Filter Bar -->
+    <g transform="translate(32,126)">
+      <rect width="260" height="36" rx="8" fill="#fff" stroke="#d1d5db"/>
+      <text x="14" y="23" fill="#374151" font-size="12">Tipo: Conversas</text>
+      <text x="240" y="23" fill="#9ca3af" font-size="10">▼</text>
+
+      <rect x="274" width="260" height="36" rx="8" fill="#fff" stroke="#d1d5db"/>
+      <text x="288" y="23" fill="#374151" font-size="12">Período: Últimos 7 dias</text>
+      <text x="514" y="23" fill="#9ca3af" font-size="10">▼</text>
+
+      <rect x="548" width="260" height="36" rx="8" fill="#fff" stroke="#d1d5db"/>
+      <text x="562" y="23" fill="#374151" font-size="12">Canal: Todos</text>
+      <text x="788" y="23" fill="#9ca3af" font-size="10">▼</text>
+
+      <rect x="822" width="260" height="36" rx="8" fill="#fff" stroke="#d1d5db"/>
+      <text x="836" y="23" fill="#374151" font-size="12">Status: Todos</text>
+      <text x="1062" y="23" fill="#9ca3af" font-size="10">▼</text>
+    </g>
+
+    <!-- Chart Area -->
+    <g transform="translate(32,184)">
+      <rect width="1120" height="240" rx="12" fill="#fff" stroke="#e5e7eb"/>
+      <text x="24" y="30" fill="#111827" font-size="15" font-weight="600">Conversas por Dia</text>
+      <!-- Y axis labels -->
+      <text x="24" y="60" fill="#9ca3af" font-size="10">50</text>
+      <text x="24" y="110" fill="#9ca3af" font-size="10">30</text>
+      <text x="24" y="160" fill="#9ca3af" font-size="10">10</text>
+      <!-- Grid lines -->
+      <line x1="50" y1="55" x2="1096" y2="55" stroke="#f3f4f6"/>
+      <line x1="50" y1="105" x2="1096" y2="105" stroke="#f3f4f6"/>
+      <line x1="50" y1="155" x2="1096" y2="155" stroke="#f3f4f6"/>
+      <line x1="50" y1="195" x2="1096" y2="195" stroke="#e5e7eb"/>
+      <!-- Area fill -->
+      <polygon points="100,140 250,90 400,110 550,70 700,95 850,60 1000,80 1000,195 100,195" fill="#6366f1" opacity="0.08"/>
+      <!-- Line -->
+      <polyline points="100,140 250,90 400,110 550,70 700,95 850,60 1000,80" fill="none" stroke="#6366f1" stroke-width="2.5" stroke-linejoin="round"/>
+      <!-- Dots -->
+      <circle cx="100" cy="140" r="4" fill="#6366f1"/>
+      <circle cx="250" cy="90" r="4" fill="#6366f1"/>
+      <circle cx="400" cy="110" r="4" fill="#6366f1"/>
+      <circle cx="550" cy="70" r="4" fill="#6366f1"/>
+      <circle cx="700" cy="95" r="4" fill="#6366f1"/>
+      <circle cx="850" cy="60" r="4" fill="#6366f1"/>
+      <circle cx="1000" cy="80" r="4" fill="#6366f1"/>
+      <!-- X axis labels -->
+      <text x="100" y="215" fill="#9ca3af" font-size="10" text-anchor="middle">Seg</text>
+      <text x="250" y="215" fill="#9ca3af" font-size="10" text-anchor="middle">Ter</text>
+      <text x="400" y="215" fill="#9ca3af" font-size="10" text-anchor="middle">Qua</text>
+      <text x="550" y="215" fill="#9ca3af" font-size="10" text-anchor="middle">Qui</text>
+      <text x="700" y="215" fill="#9ca3af" font-size="10" text-anchor="middle">Sex</text>
+      <text x="850" y="215" fill="#9ca3af" font-size="10" text-anchor="middle">Sáb</text>
+      <text x="1000" y="215" fill="#9ca3af" font-size="10" text-anchor="middle">Dom</text>
+    </g>
+
+    <!-- Data Table -->
+    <g transform="translate(32,440)">
+      <rect width="1120" height="280" rx="12" fill="#fff" stroke="#e5e7eb"/>
+      <text x="24" y="30" fill="#111827" font-size="15" font-weight="600">Dados Detalhados</text>
+      <!-- Header -->
+      <rect x="0" y="44" width="1120" height="32" fill="#f9fafb"/>
+      <text x="24" y="65" fill="#6b7280" font-size="11" font-weight="600">Data</text>
+      <text x="240" y="65" fill="#6b7280" font-size="11" font-weight="600">Conversas</text>
+      <text x="440" y="65" fill="#6b7280" font-size="11" font-weight="600">Mensagens</text>
+      <text x="660" y="65" fill="#6b7280" font-size="11" font-weight="600">Tempo Médio</text>
+      <text x="900" y="65" fill="#6b7280" font-size="11" font-weight="600">Taxa Resolução</text>
+      <!-- Rows -->
+      <g font-size="12">
+        <text x="24" y="100" fill="#374151">01/01/2025</text><text x="240" y="100" fill="#374151">42</text><text x="440" y="100" fill="#374151">186</text><text x="660" y="100" fill="#374151">4m 32s</text><text x="900" y="100" fill="#10b981">94%</text>
+        <line x1="16" y1="110" x2="1104" y2="110" stroke="#f3f4f6"/>
+        <text x="24" y="138" fill="#374151">02/01/2025</text><text x="240" y="138" fill="#374151">38</text><text x="440" y="138" fill="#374151">152</text><text x="660" y="138" fill="#374151">5m 10s</text><text x="900" y="138" fill="#10b981">91%</text>
+        <line x1="16" y1="148" x2="1104" y2="148" stroke="#f3f4f6"/>
+        <text x="24" y="176" fill="#374151">03/01/2025</text><text x="240" y="176" fill="#374151">45</text><text x="440" y="176" fill="#374151">201</text><text x="660" y="176" fill="#374151">3m 48s</text><text x="900" y="176" fill="#10b981">96%</text>
+        <line x1="16" y1="186" x2="1104" y2="186" stroke="#f3f4f6"/>
+        <text x="24" y="214" fill="#374151">04/01/2025</text><text x="240" y="214" fill="#374151">51</text><text x="440" y="214" fill="#374151">223</text><text x="660" y="214" fill="#374151">4m 05s</text><text x="900" y="214" fill="#10b981">89%</text>
+        <line x1="16" y1="224" x2="1104" y2="224" stroke="#f3f4f6"/>
+        <text x="24" y="252" fill="#374151">05/01/2025</text><text x="240" y="252" fill="#374151">36</text><text x="440" y="252" fill="#374151">144</text><text x="660" y="252" fill="#374151">6m 15s</text><text x="900" y="252" fill="#ef4444">85%</text>
+      </g>
+    </g>
+
+    <!-- Scheduled Reports -->
+    <g transform="translate(32,736)">
+      <rect width="1120" height="70" rx="12" fill="#fff" stroke="#e5e7eb"/>
+      <text x="24" y="28" fill="#111827" font-size="15" font-weight="600">Relatórios Agendados</text>
+      <text x="24" y="50" fill="#6b7280" font-size="12">Programe envios automáticos de relatórios por e-mail</text>
+      <rect x="920" y="16" width="170" height="36" rx="8" fill="#eef2ff"/>
+      <text x="1005" y="39" fill="#6366f1" font-size="13" font-weight="600" text-anchor="middle">+ Agendar Relatório</text>
+    </g>
+  </g>
+</svg>

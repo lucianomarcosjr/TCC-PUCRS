@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" font-family="Inter, sans-serif">
+  <defs>
+    <clipPath id="clip"><rect width="1440" height="900" rx="8"/></clipPath>
+    <style>
+      text { fill: #1f2937; }
+      .sidebar-text { fill: #9ca3af; font-size: 13px; }
+      .sidebar-active { fill: #ffffff; font-size: 13px; }
+      .sub-sidebar-text { fill: #374151; font-size: 13px; }
+      .sub-sidebar-active { fill: #6366f1; font-size: 13px; font-weight: 600; }
+      .section-title { font-size: 16px; font-weight: 600; fill: #111827; }
+      .label { font-size: 13px; fill: #374151; font-weight: 500; }
+      .input-text { font-size: 13px; fill: #111827; }
+      .placeholder { font-size: 13px; fill: #9ca3af; }
+      .breadcrumb { font-size: 12px; fill: #6b7280; }
+      .breadcrumb-active { font-size: 12px; fill: #6366f1; }
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <!-- Background -->
+    <rect width="1440" height="900" fill="#fafafa"/>
+
+    <!-- Dark Sidebar -->
+    <rect width="240" height="900" fill="#111827"/>
+    <!-- Logo -->
+    <text x="24" y="36" font-size="20" font-weight="700" fill="#6366f1">⚡ OmniFlow</text>
+    <line x1="16" y1="52" x2="224" y2="52" stroke="#1f2937" stroke-width="1"/>
+
+    <!-- Nav Items -->
+    <text x="24" y="80" class="sidebar-text">💬  Conversas</text>
+    <text x="24" y="112" class="sidebar-text">👥  Clientes</text>
+    <text x="24" y="144" class="sidebar-text">📊  Analytics</text>
+    <text x="24" y="176" class="sidebar-text">🔔  Notificações</text>
+    <text x="24" y="208" class="sidebar-text">⚡  Automações</text>
+    <text x="24" y="240" class="sidebar-text">📄  Relatórios</text>
+
+    <line x1="16" y1="260" x2="224" y2="260" stroke="#1f2937" stroke-width="1"/>
+
+    <!-- Settings active -->
+    <rect x="8" y="272" width="224" height="32" rx="6" fill="#6366f1" opacity="0.15"/>
+    <text x="24" y="293" class="sidebar-active" fill="#6366f1" font-weight="600">⚙️  Configurações</text>
+    <text x="24" y="325" class="sidebar-text">👤  Perfil</text>
+    <text x="24" y="357" class="sidebar-text">❓  Ajuda</text>
+
+    <!-- User card -->
+    <rect x="8" y="848" width="224" height="44" rx="8" fill="#1f2937"/>
+    <circle cx="30" cy="870" r="14" fill="#6366f1"/>
+    <text x="30" y="874" font-size="11" fill="white" text-anchor="middle">LC</text>
+    <text x="52" y="865" font-size="12" fill="#ffffff" font-weight="500">Luciano Costa</text>
+    <text x="52" y="880" font-size="10" fill="#9ca3af">luciano@omniflow.io</text>
+
+    <!-- Settings Sub-sidebar -->
+    <rect x="240" y="0" width="220" height="900" fill="#ffffff"/>
+    <rect x="240" y="0" width="220" height="900" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="260" y="36" font-size="14" font-weight="600" fill="#111827">Configurações</text>
+    <line x1="252" y1="50" x2="448" y2="50" stroke="#e5e7eb" stroke-width="1"/>
+
+    <text x="260" y="76" class="sub-sidebar-text">Perfil</text>
+    <rect x="248" y="88" width="204" height="30" rx="6" fill="#eef2ff"/>
+    <text x="260" y="108" class="sub-sidebar-active">Empresa</text>
+    <text x="260" y="140" class="sub-sidebar-text">Canais</text>
+    <text x="260" y="168" class="sub-sidebar-text">Usuários</text>
+    <text x="260" y="196" class="sub-sidebar-text">Planos</text>
+    <text x="260" y="224" class="sub-sidebar-text">Notificações</text>
+    <text x="260" y="252" class="sub-sidebar-text">Integrações</text>
+
+    <!-- Main Content Area -->
+    <!-- Breadcrumb -->
+    <text x="488" y="32" class="breadcrumb">Dashboard  ›  Configurações  ›  <tspan class="breadcrumb-active">Empresa</tspan></text>
+
+    <!-- Page Title -->
+    <text x="488" y="68" font-size="22" font-weight="700" fill="#111827">Configurações da Empresa</text>
+
+    <!-- Section: Dados da Empresa -->
+    <rect x="488" y="92" width="720" height="280" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="512" y="122" class="section-title">Dados da Empresa</text>
+    <line x1="512" y1="134" x2="1184" y2="134" stroke="#f3f4f6" stroke-width="1"/>
+
+    <!-- Nome da Empresa -->
+    <text x="512" y="162" class="label">Nome da Empresa</text>
+    <rect x="512" y="170" width="340" height="36" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+    <text x="524" y="193" class="input-text">Loja Exemplo</text>
+
+    <!-- CNPJ -->
+    <text x="868" y="162" class="label">CNPJ</text>
+    <rect x="868" y="170" width="316" height="36" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+    <text x="880" y="193" class="placeholder">00.000.000/0000-00</text>
+
+    <!-- Telefone -->
+    <text x="512" y="228" class="label">Telefone</text>
+    <rect x="512" y="236" width="340" height="36" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+    <text x="524" y="259" class="placeholder">(00) 00000-0000</text>
+
+    <!-- Endereço -->
+    <text x="868" y="228" class="label">Endereço</text>
+    <rect x="868" y="236" width="316" height="36" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+    <text x="880" y="259" class="placeholder">Rua, número, cidade</text>
+
+    <!-- Divider -->
+    <line x1="512" y1="296" x2="1184" y2="296" stroke="#f3f4f6" stroke-width="1"/>
+
+    <!-- Section: Horário de Atendimento -->
+    <rect x="488" y="388" width="720" height="200" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="512" y="418" class="section-title">Horário de Atendimento</text>
+    <line x1="512" y1="430" x2="1184" y2="430" stroke="#f3f4f6" stroke-width="1"/>
+
+    <!-- Time inputs -->
+    <text x="512" y="458" class="label">Início</text>
+    <rect x="512" y="466" width="150" height="36" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+    <text x="524" y="489" class="input-text">09:00</text>
+
+    <text x="680" y="458" class="label">Fim</text>
+    <rect x="680" y="466" width="150" height="36" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+    <text x="692" y="489" class="input-text">18:00</text>
+
+    <!-- Day selector pills -->
+    <text x="512" y="526" class="label">Dias de Atendimento</text>
+    <rect x="512" y="536" width="52" height="30" rx="15" fill="#6366f1"/><text x="538" y="555" font-size="12" fill="#ffffff" text-anchor="middle">Seg</text>
+    <rect x="572" y="536" width="52" height="30" rx="15" fill="#6366f1"/><text x="598" y="555" font-size="12" fill="#ffffff" text-anchor="middle">Ter</text>
+    <rect x="632" y="536" width="52" height="30" rx="15" fill="#6366f1"/><text x="658" y="555" font-size="12" fill="#ffffff" text-anchor="middle">Qua</text>
+    <rect x="692" y="536" width="52" height="30" rx="15" fill="#6366f1"/><text x="718" y="555" font-size="12" fill="#ffffff" text-anchor="middle">Qui</text>
+    <rect x="752" y="536" width="52" height="30" rx="15" fill="#6366f1"/><text x="778" y="555" font-size="12" fill="#ffffff" text-anchor="middle">Sex</text>
+    <rect x="812" y="536" width="52" height="30" rx="15" fill="#e5e7eb"/><text x="838" y="555" font-size="12" fill="#6b7280" text-anchor="middle">Sáb</text>
+    <rect x="872" y="536" width="56" height="30" rx="15" fill="#e5e7eb"/><text x="900" y="555" font-size="12" fill="#6b7280" text-anchor="middle">Dom</text>
+
+    <!-- Section: Mensagem Automática -->
+    <rect x="488" y="604" width="720" height="180" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="512" y="634" class="section-title">Mensagem Automática</text>
+    <line x1="512" y1="646" x2="1184" y2="646" stroke="#f3f4f6" stroke-width="1"/>
+
+    <text x="512" y="672" class="label">Mensagem de boas-vindas</text>
+    <rect x="512" y="680" width="672" height="72" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+    <text x="524" y="703" class="input-text">Olá! Como posso ajudar?</text>
+
+    <!-- Save Button -->
+    <rect x="488" y="804" width="170" height="42" rx="8" fill="#6366f1"/>
+    <text x="573" y="830" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">Salvar Alterações</text>
+  </g>
+</svg>

@@ -117,4 +117,20 @@ export const analyticsAPI = {
     api.get(`/analytics/events/${event}`),
 };
 
+// WhatsApp Connection
+export const whatsappAPI = {
+  getStatus: () => api.get('/whatsapp/status'),
+  connect: () => api.post('/whatsapp/connect'),
+  disconnect: () => api.post('/whatsapp/disconnect'),
+};
+
+// Automations
+export const automationsAPI = {
+  list: () => api.get('/automations'),
+  create: (data: any) => api.post('/automations', data),
+  update: (id: string, data: any) => api.put(`/automations/${id}`, data),
+  toggle: (id: string) => api.patch(`/automations/${id}/toggle`),
+  delete: (id: string) => api.delete(`/automations/${id}`),
+};
+
 export default api;

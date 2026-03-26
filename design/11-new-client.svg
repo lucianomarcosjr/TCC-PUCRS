@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <style>
+      text { font-family: 'Inter', sans-serif; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="1440" height="900" fill="#fafafa"/>
+  <!-- Sidebar -->
+  <rect width="240" height="900" fill="#111827"/>
+  <text x="24" y="40" font-size="18" fill="#fff" font-family="Inter" font-weight="700">OmniFlow</text>
+  <text x="24" y="56" font-size="10" fill="#9ca3af" font-family="Inter">Omnichannel Platform</text>
+  <!-- Nav -->
+  <g font-size="14" font-family="Inter">
+    <rect x="8" y="80" width="224" height="36" rx="6" fill="transparent"/>
+    <text x="48" y="103" fill="#d1d5db">💬</text><text x="72" y="103" fill="#d1d5db">Conversas</text>
+    <rect x="8" y="120" width="224" height="36" rx="6" fill="rgba(99,102,241,0.15)"/>
+    <text x="48" y="143" fill="#6366f1">👥</text><text x="72" y="143" fill="#6366f1" font-weight="600">Clientes</text>
+    <rect x="8" y="160" width="224" height="36" rx="6" fill="transparent"/>
+    <text x="48" y="183" fill="#d1d5db">📊</text><text x="72" y="183" fill="#d1d5db">Analytics</text>
+    <rect x="8" y="200" width="224" height="36" rx="6" fill="transparent"/>
+    <text x="48" y="223" fill="#d1d5db">🔔</text><text x="72" y="223" fill="#d1d5db">Notificações</text>
+    <rect x="8" y="240" width="224" height="36" rx="6" fill="transparent"/>
+    <text x="48" y="263" fill="#d1d5db">⚡</text><text x="72" y="263" fill="#d1d5db">Automações</text>
+    <rect x="8" y="280" width="224" height="36" rx="6" fill="transparent"/>
+    <text x="48" y="303" fill="#d1d5db">📋</text><text x="72" y="303" fill="#d1d5db">Relatórios</text>
+  </g>
+  <line x1="16" y1="340" x2="224" y2="340" stroke="#1f2937"/>
+  <g font-size="14" font-family="Inter">
+    <text x="48" y="370" fill="#9ca3af">⚙️</text><text x="72" y="370" fill="#9ca3af">Configurações</text>
+    <text x="48" y="402" fill="#9ca3af">👤</text><text x="72" y="402" fill="#9ca3af">Perfil</text>
+    <text x="48" y="434" fill="#9ca3af">❓</text><text x="72" y="434" fill="#9ca3af">Ajuda</text>
+  </g>
+  <!-- User card -->
+  <rect x="8" y="844" width="224" height="48" rx="8" fill="#1f2937"/>
+  <circle cx="32" cy="868" r="16" fill="#6366f1"/>
+  <text x="32" y="873" text-anchor="middle" font-size="11" fill="#fff" font-family="Inter" font-weight="600">JS</text>
+  <text x="56" y="862" font-size="13" fill="#fff" font-family="Inter" font-weight="500">João Silva</text>
+  <text x="56" y="878" font-size="11" fill="#9ca3af" font-family="Inter">Proprietário</text>
+
+  <!-- Main Content -->
+  <g transform="translate(264, 24)">
+    <!-- Breadcrumb -->
+    <text x="0" y="16" font-size="13" fill="#9ca3af" font-family="Inter">Dashboard</text>
+    <text x="72" y="16" font-size="13" fill="#9ca3af" font-family="Inter">›</text>
+    <text x="84" y="16" font-size="13" fill="#9ca3af" font-family="Inter">Clientes</text>
+    <text x="138" y="16" font-size="13" fill="#9ca3af" font-family="Inter">›</text>
+    <text x="150" y="16" font-size="13" fill="#6366f1" font-family="Inter" font-weight="500">Novo Cliente</text>
+
+    <!-- Back + Title -->
+    <text x="0" y="56" font-size="14" fill="#6366f1" font-family="Inter" font-weight="500">← Voltar</text>
+    <text x="0" y="90" font-size="24" fill="#111827" font-family="Inter" font-weight="700">Novo Cliente</text>
+    <text x="0" y="112" font-size="14" fill="#6b7280" font-family="Inter">Preencha os dados para cadastrar um novo cliente</text>
+
+    <!-- Form Card -->
+    <rect x="0" y="132" width="720" height="600" rx="12" fill="#fff" stroke="#e5e7eb"/>
+
+    <!-- Nome -->
+    <text x="32" y="172" font-size="13" fill="#374151" font-family="Inter" font-weight="500">Nome *</text>
+    <rect x="32" y="182" width="656" height="44" rx="8" fill="#fff" stroke="#d1d5db"/>
+    <text x="56" y="209" font-size="16" fill="#9ca3af" font-family="Inter">👤</text>
+    <text x="80" y="209" font-size="14" fill="#9ca3af" font-family="Inter">Nome completo do cliente</text>
+
+    <!-- Telefone -->
+    <text x="32" y="258" font-size="13" fill="#374151" font-family="Inter" font-weight="500">Telefone *</text>
+    <rect x="32" y="268" width="656" height="44" rx="8" fill="#fff" stroke="#d1d5db"/>
+    <text x="56" y="295" font-size="16" fill="#9ca3af" font-family="Inter">📱</text>
+    <text x="80" y="295" font-size="14" fill="#9ca3af" font-family="Inter">+55 11 99999-9999</text>
+
+    <!-- Email -->
+    <text x="32" y="344" font-size="13" fill="#374151" font-family="Inter" font-weight="500">Email</text>
+    <rect x="32" y="354" width="656" height="44" rx="8" fill="#fff" stroke="#d1d5db"/>
+    <text x="56" y="381" font-size="16" fill="#9ca3af" font-family="Inter">✉️</text>
+    <text x="80" y="381" font-size="14" fill="#9ca3af" font-family="Inter">email@exemplo.com</text>
+
+    <!-- Tags -->
+    <text x="32" y="430" font-size="13" fill="#374151" font-family="Inter" font-weight="500">Tags</text>
+    <rect x="32" y="440" width="656" height="44" rx="8" fill="#fff" stroke="#d1d5db"/>
+    <text x="56" y="467" font-size="16" fill="#9ca3af" font-family="Inter">🏷️</text>
+    <text x="80" y="467" font-size="14" fill="#9ca3af" font-family="Inter">Ex: VIP Premium</text>
+    <text x="32" y="500" font-size="11" fill="#9ca3af" font-family="Inter">Separadas por espaço</text>
+
+    <!-- Notas Iniciais -->
+    <text x="32" y="530" font-size="13" fill="#374151" font-family="Inter" font-weight="500">Notas Iniciais</text>
+    <rect x="32" y="540" width="656" height="100" rx="8" fill="#fff" stroke="#d1d5db"/>
+    <text x="48" y="568" font-size="14" fill="#9ca3af" font-family="Inter">Adicione observações sobre o cliente...</text>
+
+    <!-- Buttons -->
+    <rect x="32" y="664" width="120" height="44" rx="8" fill="none" stroke="#d1d5db"/>
+    <text x="92" y="691" text-anchor="middle" font-size="14" fill="#374151" font-family="Inter" font-weight="500">Cancelar</text>
+    <rect x="548" y="664" width="140" height="44" rx="8" fill="#6366f1"/>
+    <text x="618" y="691" text-anchor="middle" font-size="14" fill="#fff" font-family="Inter" font-weight="500">Criar Cliente</text>
+  </g>
+</svg>

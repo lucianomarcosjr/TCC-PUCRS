@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <style>
+      text { font-family: 'Inter', sans-serif; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="1440" height="900" fill="#fafafa"/>
+  <!-- Sidebar -->
+  <rect width="240" height="900" fill="#111827"/>
+  <!-- Logo -->
+  <text x="24" y="40" font-size="18" fill="#fff" font-family="Inter" font-weight="700">OmniFlow</text>
+  <text x="24" y="56" font-size="10" fill="#9ca3af" font-family="Inter">Omnichannel Platform</text>
+  <!-- Nav items -->
+  <g font-size="14" font-family="Inter">
+    <rect x="8" y="80" width="224" height="36" rx="6" fill="transparent"/>
+    <text x="48" y="103" fill="#d1d5db">💬</text><text x="72" y="103" fill="#d1d5db">Conversas</text>
+    <rect x="8" y="120" width="224" height="36" rx="6" fill="rgba(99,102,241,0.15)"/>
+    <text x="48" y="143" fill="#6366f1">👥</text><text x="72" y="143" fill="#6366f1" font-weight="600">Clientes</text>
+    <rect x="8" y="160" width="224" height="36" rx="6" fill="transparent"/>
+    <text x="48" y="183" fill="#d1d5db">📊</text><text x="72" y="183" fill="#d1d5db">Analytics</text>
+    <rect x="8" y="200" width="224" height="36" rx="6" fill="transparent"/>
+    <text x="48" y="223" fill="#d1d5db">🔔</text><text x="72" y="223" fill="#d1d5db">Notificações</text>
+    <rect x="8" y="240" width="224" height="36" rx="6" fill="transparent"/>
+    <text x="48" y="263" fill="#d1d5db">⚡</text><text x="72" y="263" fill="#d1d5db">Automações</text>
+    <rect x="8" y="280" width="224" height="36" rx="6" fill="transparent"/>
+    <text x="48" y="303" fill="#d1d5db">📋</text><text x="72" y="303" fill="#d1d5db">Relatórios</text>
+  </g>
+  <!-- Separator -->
+  <line x1="16" y1="340" x2="224" y2="340" stroke="#1f2937"/>
+  <!-- Bottom nav -->
+  <g font-size="14" font-family="Inter">
+    <text x="48" y="370" fill="#9ca3af">⚙️</text><text x="72" y="370" fill="#9ca3af">Configurações</text>
+    <text x="48" y="402" fill="#9ca3af">👤</text><text x="72" y="402" fill="#9ca3af">Perfil</text>
+    <text x="48" y="434" fill="#9ca3af">❓</text><text x="72" y="434" fill="#9ca3af">Ajuda</text>
+  </g>
+  <!-- User card -->
+  <rect x="8" y="844" width="224" height="48" rx="8" fill="#1f2937"/>
+  <circle cx="32" cy="868" r="16" fill="#6366f1"/>
+  <text x="32" y="873" text-anchor="middle" font-size="11" fill="#fff" font-family="Inter" font-weight="600">JS</text>
+  <text x="56" y="862" font-size="13" fill="#fff" font-family="Inter" font-weight="500">João Silva</text>
+  <text x="56" y="878" font-size="11" fill="#9ca3af" font-family="Inter">Proprietário</text>
+
+  <!-- Main Content -->
+  <g transform="translate(264, 24)">
+    <!-- Breadcrumb -->
+    <text x="0" y="16" font-size="13" fill="#9ca3af" font-family="Inter">Dashboard</text>
+    <text x="72" y="16" font-size="13" fill="#9ca3af" font-family="Inter">›</text>
+    <text x="84" y="16" font-size="13" fill="#9ca3af" font-family="Inter">Clientes</text>
+    <text x="138" y="16" font-size="13" fill="#9ca3af" font-family="Inter">›</text>
+    <text x="150" y="16" font-size="13" fill="#6366f1" font-family="Inter" font-weight="500">Ana Costa</text>
+
+    <!-- Back button -->
+    <text x="0" y="56" font-size="14" fill="#6366f1" font-family="Inter" font-weight="500">← Voltar</text>
+
+    <!-- Header card -->
+    <rect x="0" y="72" width="1152" height="100" rx="12" fill="#fff" stroke="#e5e7eb"/>
+    <!-- Avatar -->
+    <circle cx="56" cy="122" r="30" fill="#8b5cf6"/>
+    <text x="56" y="130" text-anchor="middle" font-size="18" fill="#fff" font-family="Inter" font-weight="600">AC</text>
+    <!-- Name & info -->
+    <text x="100" y="110" font-size="20" fill="#111827" font-family="Inter" font-weight="700">Ana Costa</text>
+    <text x="100" y="130" font-size="13" fill="#6b7280" font-family="Inter">📱 +55 11 98765-4321</text>
+    <text x="300" y="130" font-size="13" fill="#6b7280" font-family="Inter">✉️ ana.costa@email.com</text>
+    <!-- Tags -->
+    <rect x="100" y="140" width="40" height="22" rx="11" fill="#eef2ff"/>
+    <text x="120" y="155" text-anchor="middle" font-size="11" fill="#6366f1" font-family="Inter" font-weight="500">VIP</text>
+    <rect x="148" y="140" width="68" height="22" rx="11" fill="#f3e8ff"/>
+    <text x="182" y="155" text-anchor="middle" font-size="11" fill="#8b5cf6" font-family="Inter" font-weight="500">Premium</text>
+    <!-- Edit button -->
+    <rect x="1032" y="106" width="100" height="36" rx="8" fill="#6366f1"/>
+    <text x="1082" y="129" text-anchor="middle" font-size="14" fill="#fff" font-family="Inter" font-weight="500">Editar</text>
+
+    <!-- Tabs -->
+    <g transform="translate(0, 192)">
+      <text x="0" y="0" font-size="14" fill="#6366f1" font-family="Inter" font-weight="600">Informações</text>
+      <line x1="0" y1="8" x2="85" y2="8" stroke="#6366f1" stroke-width="2"/>
+      <text x="120" y="0" font-size="14" fill="#9ca3af" font-family="Inter">Conversas</text>
+      <text x="220" y="0" font-size="14" fill="#9ca3af" font-family="Inter">Notas</text>
+      <line x1="0" y1="12" x2="1152" y2="12" stroke="#e5e7eb"/>
+    </g>
+
+    <!-- Card 1: Dados Pessoais -->
+    <rect x="0" y="224" width="560" height="240" rx="12" fill="#fff" stroke="#e5e7eb"/>
+    <text x="24" y="256" font-size="16" fill="#111827" font-family="Inter" font-weight="600">Dados Pessoais</text>
+    <line x1="24" y1="268" x2="536" y2="268" stroke="#f3f4f6"/>
+    <!-- Grid -->
+    <text x="24" y="300" font-size="12" fill="#9ca3af" font-family="Inter">Nome</text>
+    <text x="24" y="318" font-size="14" fill="#111827" font-family="Inter">Ana Costa</text>
+    <text x="300" y="300" font-size="12" fill="#9ca3af" font-family="Inter">Email</text>
+    <text x="300" y="318" font-size="14" fill="#111827" font-family="Inter">ana.costa@email.com</text>
+    <text x="24" y="360" font-size="12" fill="#9ca3af" font-family="Inter">Telefone</text>
+    <text x="24" y="378" font-size="14" fill="#111827" font-family="Inter">+55 11 98765-4321</text>
+    <text x="300" y="360" font-size="12" fill="#9ca3af" font-family="Inter">Tags</text>
+    <rect x="300" y="366" width="40" height="20" rx="10" fill="#eef2ff"/>
+    <text x="320" y="380" text-anchor="middle" font-size="11" fill="#6366f1" font-family="Inter">VIP</text>
+    <rect x="348" y="366" width="68" height="20" rx="10" fill="#f3e8ff"/>
+    <text x="382" y="380" text-anchor="middle" font-size="11" fill="#8b5cf6" font-family="Inter">Premium</text>
+
+    <!-- Card 2: Estatísticas -->
+    <rect x="584" y="224" width="568" height="240" rx="12" fill="#fff" stroke="#e5e7eb"/>
+    <text x="608" y="256" font-size="16" fill="#111827" font-family="Inter" font-weight="600">Estatísticas</text>
+    <line x1="608" y1="268" x2="1128" y2="268" stroke="#f3f4f6"/>
+    <text x="608" y="300" font-size="12" fill="#9ca3af" font-family="Inter">Criado em</text>
+    <text x="608" y="318" font-size="14" fill="#111827" font-family="Inter">15 Jan 2024</text>
+    <text x="880" y="300" font-size="12" fill="#9ca3af" font-family="Inter">Última atualização</text>
+    <text x="880" y="318" font-size="14" fill="#111827" font-family="Inter">28 Dez 2024</text>
+    <text x="608" y="360" font-size="12" fill="#9ca3af" font-family="Inter">Total conversas</text>
+    <text x="608" y="382" font-size="22" fill="#6366f1" font-family="Inter" font-weight="700">24</text>
+    <text x="880" y="360" font-size="12" fill="#9ca3af" font-family="Inter">Tempo médio</text>
+    <text x="880" y="382" font-size="22" fill="#10b981" font-family="Inter" font-weight="700">3min</text>
+
+    <!-- Activity Timeline -->
+    <rect x="0" y="488" width="1152" height="240" rx="12" fill="#fff" stroke="#e5e7eb"/>
+    <text x="24" y="520" font-size="16" fill="#111827" font-family="Inter" font-weight="600">Atividade Recente</text>
+    <line x1="24" y1="532" x2="1128" y2="532" stroke="#f3f4f6"/>
+    <!-- Item 1 -->
+    <circle cx="40" cy="564" r="6" fill="#6366f1"/>
+    <line x1="40" y1="570" x2="40" y2="610" stroke="#e5e7eb" stroke-width="2"/>
+    <text x="60" y="560" font-size="13" fill="#111827" font-family="Inter" font-weight="500">Conversa finalizada via WhatsApp</text>
+    <text x="60" y="578" font-size="12" fill="#9ca3af" font-family="Inter">Há 2 horas • Atendente: Maria</text>
+    <!-- Item 2 -->
+    <circle cx="40" cy="616" r="6" fill="#10b981"/>
+    <line x1="40" y1="622" x2="40" y2="662" stroke="#e5e7eb" stroke-width="2"/>
+    <text x="60" y="612" font-size="13" fill="#111827" font-family="Inter" font-weight="500">Tag "Premium" adicionada</text>
+    <text x="60" y="630" font-size="12" fill="#9ca3af" font-family="Inter">Ontem às 14:30 • Por: João Silva</text>
+    <!-- Item 3 -->
+    <circle cx="40" cy="668" r="6" fill="#8b5cf6"/>
+    <text x="60" y="664" font-size="13" fill="#111827" font-family="Inter" font-weight="500">Nota adicionada ao perfil</text>
+    <text x="60" y="682" font-size="12" fill="#9ca3af" font-family="Inter">23 Dez 2024 • Por: Maria Santos</text>
+  </g>
+</svg>
