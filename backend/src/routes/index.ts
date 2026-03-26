@@ -34,6 +34,7 @@ router.post('/conversations', authMiddleware, (req, res) => conversationControll
 router.get('/conversations/:id', authMiddleware, (req, res) => conversationController.getById(req, res));
 router.patch('/conversations/:id/assign', authMiddleware, validate(assignConversationSchema), (req, res) => conversationController.assign(req, res));
 router.patch('/conversations/:id/close', authMiddleware, (req, res) => conversationController.close(req, res));
+router.post('/conversations/:id/rate', authMiddleware, (req, res) => conversationController.rate(req, res));
 
 // Webhook
 const webhookController = new WebhookController();
@@ -47,6 +48,7 @@ router.get('/messages/:conversationId', authMiddleware, (req, res) => messageCon
 
 // Analytics
 const analyticsController = new AnalyticsController();
+router.get('/analytics/dashboard', authMiddleware, (req, res) => analyticsController.dashboard(req, res));
 router.get('/analytics/conversations/:conversationId/logs', authMiddleware, auditLog('view_logs'), (req, res) => analyticsController.getConversationLogs(req, res));
 router.get('/analytics/users/:userId/activity', authMiddleware, auditLog('view_activity'), (req, res) => analyticsController.getUserActivity(req, res));
 router.get('/analytics/events/:event', authMiddleware, auditLog('view_events'), (req, res) => analyticsController.getEventStats(req, res));
