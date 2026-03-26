@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text{font-family:'Inter',sans-serif}
+    </style>
+  </defs>
+  <rect width="1440" height="900" fill="#fafafa"/>
+  <!-- Sidebar -->
+  <rect width="260" height="900" fill="#111827"/>
+  <text x="32" y="40" fill="#fff" font-size="22" font-weight="700">🌀 OmniFlow</text>
+  <text x="32" y="58" fill="#9ca3af" font-size="11">Plataforma de Atendimento</text>
+  <line x1="20" y1="70" x2="240" y2="70" stroke="#1f2937" stroke-width="1"/>
+  <g fill="#9ca3af" font-size="14">
+    <rect x="12" y="80" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="104">💬  Conversas</text>
+    <rect x="12" y="122" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="146">👥  Clientes</text>
+    <rect x="12" y="164" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="188">📊  Analytics</text>
+    <rect x="12" y="206" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="230">🔔  Notificações</text>
+    <rect x="12" y="248" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="272">⚡  Automações</text>
+    <rect x="12" y="290" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="314">📋  Relatórios</text>
+  </g>
+  <line x1="20" y1="342" x2="240" y2="342" stroke="#1f2937" stroke-width="1"/>
+  <g fill="#9ca3af" font-size="14">
+    <rect x="12" y="354" width="236" height="38" rx="8" fill="#6366f1" opacity="0.15"/>
+    <text x="44" y="378" fill="#818cf8">⚙️  Configurações</text>
+    <rect x="12" y="396" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="420">👤  Perfil</text>
+    <rect x="12" y="438" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="462">❓  Ajuda</text>
+  </g>
+  <rect x="12" y="840" width="236" height="50" rx="10" fill="#1f2937"/>
+  <circle cx="40" cy="865" r="16" fill="#6366f1"/>
+  <text x="34" y="870" fill="#fff" font-size="11" font-weight="600">LC</text>
+  <text x="62" y="860" fill="#fff" font-size="13" font-weight="500">Luciano Costa</text>
+  <text x="62" y="876" fill="#9ca3af" font-size="11">Admin</text>
+
+  <!-- Breadcrumb -->
+  <text x="292" y="36" fill="#9ca3af" font-size="13">Dashboard</text>
+  <text x="360" y="36" fill="#9ca3af" font-size="13">&gt;</text>
+  <text x="376" y="36" fill="#9ca3af" font-size="13">Configurações</text>
+  <text x="468" y="36" fill="#9ca3af" font-size="13">&gt;</text>
+  <text x="484" y="36" fill="#6366f1" font-size="13" font-weight="500">Perfil</text>
+
+  <!-- Settings Sidebar -->
+  <rect x="280" y="56" width="220" height="500" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="300" y="88" fill="#111827" font-size="14" font-weight="600">Configurações</text>
+  <!-- Active item -->
+  <rect x="292" y="100" width="196" height="38" rx="8" fill="#eef2ff"/>
+  <text x="316" y="124" fill="#6366f1" font-size="13" font-weight="600">👤  Perfil</text>
+  <rect x="292" y="142" width="196" height="38" rx="8" fill="transparent"/>
+  <text x="316" y="166" fill="#6b7280" font-size="13">🏢  Empresa</text>
+  <rect x="292" y="184" width="196" height="38" rx="8" fill="transparent"/>
+  <text x="316" y="208" fill="#6b7280" font-size="13">🔔  Notificações</text>
+  <rect x="292" y="226" width="196" height="38" rx="8" fill="transparent"/>
+  <text x="316" y="250" fill="#6b7280" font-size="13">🔗  Integrações</text>
+  <rect x="292" y="268" width="196" height="38" rx="8" fill="transparent"/>
+  <text x="316" y="292" fill="#6b7280" font-size="13">🔒  Segurança</text>
+  <rect x="292" y="310" width="196" height="38" rx="8" fill="transparent"/>
+  <text x="316" y="334" fill="#6b7280" font-size="13">💳  Faturamento</text>
+  <rect x="292" y="352" width="196" height="38" rx="8" fill="transparent"/>
+  <text x="316" y="376" fill="#6b7280" font-size="13">🤖  API</text>
+
+  <!-- Main Content Area -->
+  <rect x="516" y="56" width="904" height="780" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="548" y="92" fill="#111827" font-size="20" font-weight="700">Perfil</text>
+  <text x="548" y="112" fill="#6b7280" font-size="13">Gerencie suas informações pessoais</text>
+
+  <!-- Profile Photo Section -->
+  <circle cx="588" cy="168" r="40" fill="#6366f1"/>
+  <text x="572" y="176" fill="#fff" font-size="20" font-weight="700">LC</text>
+  <!-- Camera overlay -->
+  <circle cx="616" cy="196" r="14" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="609" y="201" fill="#6b7280" font-size="14">📷</text>
+  <text x="644" y="164" fill="#111827" font-size="15" font-weight="600">Luciano Costa</text>
+  <text x="644" y="182" fill="#6b7280" font-size="12">admin@omniflow.com</text>
+  <text x="644" y="202" fill="#6366f1" font-size="13" font-weight="500" text-decoration="underline">Alterar foto</text>
+
+  <!-- Form 2-column grid -->
+  <line x1="536" y1="224" x2="1400" y2="224" stroke="#f3f4f6" stroke-width="1"/>
+  <!-- Row 1 -->
+  <text x="548" y="254" fill="#374151" font-size="13" font-weight="500">Nome</text>
+  <rect x="548" y="262" width="400" height="40" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="564" y="288" fill="#111827" font-size="14">Luciano</text>
+
+  <text x="968" y="254" fill="#374151" font-size="13" font-weight="500">Sobrenome</text>
+  <rect x="968" y="262" width="400" height="40" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="984" y="288" fill="#111827" font-size="14">Costa</text>
+
+  <!-- Row 2 -->
+  <text x="548" y="326" fill="#374151" font-size="13" font-weight="500">Email</text>
+  <rect x="548" y="334" width="400" height="40" rx="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="564" y="360" fill="#9ca3af" font-size="14">admin@omniflow.com</text>
+
+  <text x="968" y="326" fill="#374151" font-size="13" font-weight="500">Telefone</text>
+  <rect x="968" y="334" width="400" height="40" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="984" y="360" fill="#111827" font-size="14">(11) 99999-0000</text>
+
+  <!-- Notification Preferences -->
+  <line x1="536" y1="396" x2="1400" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="548" y="428" fill="#111827" font-size="16" font-weight="600">Preferências de Notificação</text>
+
+  <!-- Toggle Card 1 -->
+  <rect x="548" y="444" width="820" height="60" rx="10" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="576" y="472" fill="#374151" font-size="14" font-weight="500">📧  Notificações por email</text>
+  <text x="576" y="492" fill="#9ca3af" font-size="12">Receba atualizações sobre novas conversas por email</text>
+  <!-- Toggle ON -->
+  <rect x="1308" y="464" width="44" height="24" rx="12" fill="#6366f1"/>
+  <circle cx="1340" cy="476" r="10" fill="#fff"/>
+
+  <!-- Toggle Card 2 -->
+  <rect x="548" y="512" width="820" height="60" rx="10" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="576" y="540" fill="#374151" font-size="14" font-weight="500">🔔  Notificações push</text>
+  <text x="576" y="560" fill="#9ca3af" font-size="12">Receba alertas em tempo real no navegador</text>
+  <!-- Toggle ON -->
+  <rect x="1308" y="532" width="44" height="24" rx="12" fill="#6366f1"/>
+  <circle cx="1340" cy="544" r="10" fill="#fff"/>
+
+  <!-- Toggle Card 3 -->
+  <rect x="548" y="580" width="820" height="60" rx="10" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="576" y="608" fill="#374151" font-size="14" font-weight="500">📱  Notificações SMS</text>
+  <text x="576" y="628" fill="#9ca3af" font-size="12">Receba alertas urgentes via SMS</text>
+  <!-- Toggle OFF -->
+  <rect x="1308" y="600" width="44" height="24" rx="12" fill="#d1d5db"/>
+  <circle cx="1320" cy="612" r="10" fill="#fff"/>
+
+  <!-- Security Section -->
+  <line x1="536" y1="660" x2="1400" y2="660" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="548" y="692" fill="#111827" font-size="16" font-weight="600">Segurança</text>
+
+  <rect x="548" y="706" width="180" height="40" rx="8" fill="#fff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="576" y="731" fill="#6366f1" font-size="13" font-weight="500">🔑 Alterar senha</text>
+
+  <rect x="748" y="706" width="420" height="40" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="776" y="731" fill="#374151" font-size="13">🛡 Autenticação em dois fatores</text>
+  <!-- Toggle -->
+  <rect x="1108" y="716" width="44" height="24" rx="12" fill="#d1d5db"/>
+  <circle cx="1120" cy="728" r="10" fill="#fff"/>
+
+  <!-- Sticky Footer Bar -->
+  <rect x="516" y="836" width="904" height="56" rx="0 0 12 12" fill="#fffbeb" stroke="#fcd34d" stroke-width="1"/>
+  <text x="548" y="870" fill="#92400e" font-size="13" font-weight="500">⚠️  Alterações não salvas</text>
+  <rect x="1160" y="850" width="100" height="34" rx="8" fill="#fff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="1180" y="872" fill="#6b7280" font-size="13">Descartar</text>
+  <rect x="1272" y="850" width="136" height="34" rx="8" fill="#6366f1"/>
+  <text x="1290" y="872" fill="#fff" font-size="13" font-weight="600">Salvar alterações</text>
+</svg>

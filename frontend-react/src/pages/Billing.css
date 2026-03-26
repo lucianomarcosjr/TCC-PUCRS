@@ -1,183 +1,129 @@
 .billing-page {
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   max-width: 1000px;
-  margin: 0 auto;
 }
 
 .billing-page h1 {
-  font-size: 1.75rem;
+  font-size: 1.375rem;
   font-weight: 700;
-  color: var(--text);
-  margin-bottom: 2rem;
+  color: #111827;
+  margin-bottom: 1.5rem;
 }
 
 .current-plan {
-  background: var(--surface);
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  margin-bottom: 2rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .plan-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+  margin-bottom: 1.25rem;
 }
 
 .plan-header h2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111827;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.plan-header h2::after {
+  content: 'Professional';
+  font-size: 0.75rem;
   font-weight: 600;
-  color: var(--text);
-  margin-bottom: 0.5rem;
+  color: #6366f1;
+  background: rgba(99, 102, 241, 0.12);
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
 }
 
 .plan-price {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  color: var(--primary);
+  color: #111827;
 }
 
-.usage-stats {
-  display: grid;
-  gap: 1.5rem;
-}
-
-.usage-item {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.usage-label {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--text);
-}
-
-.usage-value {
-  font-size: 1.125rem;
-  color: var(--text-secondary);
-}
+.usage-stats { display: flex; flex-direction: column; gap: 0.75rem; }
+.usage-item { }
+.usage-label { font-size: 0.8125rem; color: #6b7280; margin-bottom: 0.25rem; }
+.usage-value { font-size: 0.8125rem; color: #111827; margin-bottom: 0.375rem; }
 
 .usage-bar {
   height: 8px;
-  background: var(--border);
+  background: #e5e7eb;
   border-radius: 4px;
   overflow: hidden;
 }
 
 .usage-fill {
   height: 100%;
-  background: var(--primary);
-  transition: width 0.3s;
+  background: #6366f1;
+  border-radius: 4px;
 }
 
 .payment-method {
-  background: var(--surface);
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  margin-bottom: 2rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.payment-method h3 {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 1.5rem;
-}
+.payment-method h3 { font-size: 1rem; font-weight: 700; color: #111827; margin-bottom: 1rem; }
 
 .card-info {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  padding: 1.5rem;
-  background: var(--background);
-  border-radius: 8px;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f3f4f6;
+  border-radius: 10px;
 }
 
-.card-icon {
-  font-size: 2rem;
-}
-
-.card-number {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 0.25rem;
-}
-
-.card-expiry {
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-}
+.card-icon { font-size: 1.375rem; }
+.card-number { font-size: 0.9375rem; font-weight: 600; color: #111827; }
+.card-expiry { font-size: 0.75rem; color: #6b7280; }
+.card-info > div:nth-child(2) { flex: 1; }
 
 .invoices-section {
-  background: var(--surface);
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  margin-bottom: 2rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.invoices-section h3 {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 1.5rem;
-}
+.invoices-section h3 { font-size: 1rem; font-weight: 700; color: #111827; margin-bottom: 1rem; }
 
-.invoices-section table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.invoices-section th {
-  text-align: left;
-  padding: 0.75rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  border-bottom: 1px solid var(--border);
-}
-
-.invoices-section td {
-  padding: 0.75rem;
-  border-bottom: 1px solid var(--border);
-  color: var(--text);
-}
+.invoices-section table { width: 100%; border-collapse: collapse; }
+.invoices-section th { text-align: left; font-size: 0.75rem; font-weight: 600; color: #6b7280; padding: 0.5rem 0; border-bottom: 1px solid #e5e7eb; }
+.invoices-section td { padding: 0.75rem 0; font-size: 0.8125rem; color: #111827; border-bottom: 1px solid #f3f4f6; }
 
 .status-badge.paid {
-  background: rgba(16, 185, 129, 0.1);
+  background: rgba(16, 185, 129, 0.12);
   color: #10b981;
   padding: 0.25rem 0.75rem;
-  border-radius: 12px;
+  border-radius: 11px;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .danger-zone {
-  background: rgba(239, 68, 68, 0.05);
-  padding: 2rem;
-  border-radius: 10px;
-  border: 2px solid rgba(239, 68, 68, 0.2);
+  background: white;
+  border: 1.5px solid #ef4444;
+  border-radius: 12px;
+  padding: 1.5rem;
 }
 
-.danger-zone h3 {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: #ef4444;
-  margin-bottom: 0.5rem;
-}
-
-.danger-zone p {
-  color: var(--text-secondary);
-  margin-bottom: 1rem;
-}
+.danger-zone h3 { font-size: 1rem; font-weight: 700; color: #ef4444; margin-bottom: 0.5rem; }
+.danger-zone p { font-size: 0.8125rem; color: #6b7280; margin-bottom: 1rem; }
 
 .btn-danger {
   padding: 0.625rem 1.25rem;
@@ -185,12 +131,9 @@
   color: white;
   border: none;
   border-radius: 8px;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s;
 }
 
-.btn-danger:hover {
-  background: #dc2626;
-}
+.btn-danger:hover { background: #dc2626; }
