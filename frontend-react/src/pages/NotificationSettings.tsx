@@ -1,5 +1,5 @@
 import { useState, FormEvent } from 'react';
-import { Layout } from '@/components/Layout';
+import { SettingsLayout } from '@/components/SettingsLayout';
 import './NotificationSettings.css';
 
 export function NotificationSettings() {
@@ -20,7 +20,7 @@ export function NotificationSettings() {
   };
 
   return (
-    <Layout>
+    <SettingsLayout>
       <div className="notification-settings">
         <h1>Configurações de Notificações</h1>
 
@@ -103,6 +103,6 @@ export function NotificationSettings() {
           <button type="submit" className="btn-primary">Salvar Preferências</button>
         </form>
       </div>
-    </Layout>
+    </SettingsLayout>
   );
 }

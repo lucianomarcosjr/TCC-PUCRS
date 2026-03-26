@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { Layout } from '@/components/Layout';
+import { SettingsLayout } from '@/components/SettingsLayout';
 import { whatsappAPI } from '@/services/api';
 import './Integrations.css';
 
@@ -78,7 +78,7 @@ export function Integrations() {
   ];
 
   return (
-    <Layout>
+    <SettingsLayout>
       <div className="integrations-page">
         <div className="integrations-header">
           <h1>Integrações</h1>
@@ -168,6 +168,6 @@ export function Integrations() {
           </div>
         </div>
       )}
-    </Layout>
+    </SettingsLayout>
   );
 }
