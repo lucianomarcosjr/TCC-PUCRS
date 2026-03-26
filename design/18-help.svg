@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" fill="none">
+<defs><style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');text{font-family:'Inter',sans-serif}</style></defs>
+<rect width="1440" height="900" fill="#fafafa"/>
+<!-- Sidebar -->
+<rect width="240" height="900" fill="#111827"/>
+<text x="28" y="38" fill="#fff" font-size="20" font-weight="700">⚡ OmniFlow</text>
+<line x1="16" y1="52" x2="224" y2="52" stroke="#1f2937"/>
+<text x="28" y="80" fill="#9ca3af" font-size="11" font-weight="600" letter-spacing="1">MENU</text>
+<text x="28" y="114" fill="#9ca3af" font-size="14">💬  Conversas</text>
+<text x="28" y="154" fill="#9ca3af" font-size="14">👥  Clientes</text>
+<text x="28" y="194" fill="#9ca3af" font-size="14">📊  Analytics</text>
+<text x="28" y="234" fill="#9ca3af" font-size="14">🔔  Notificações</text>
+<text x="28" y="274" fill="#9ca3af" font-size="14">⚡  Automações</text>
+<text x="28" y="314" fill="#9ca3af" font-size="14">📄  Relatórios</text>
+<line x1="16" y1="340" x2="224" y2="340" stroke="#1f2937"/>
+<text x="28" y="376" fill="#9ca3af" font-size="14">⚙️  Configurações</text>
+<text x="28" y="416" fill="#9ca3af" font-size="14">👤  Perfil</text>
+<rect x="8" y="432" width="224" height="36" rx="8" fill="#6366f1" opacity="0.15"/>
+<text x="28" y="456" fill="#6366f1" font-size="14" font-weight="600">❓  Ajuda</text>
+<rect x="8" y="840" width="224" height="52" rx="10" fill="#1f2937"/>
+<circle cx="34" cy="866" r="16" fill="#6366f1"/>
+<text x="30" y="871" fill="#fff" font-size="12" font-weight="600" text-anchor="middle">J</text>
+<text x="58" y="861" fill="#fff" font-size="13" font-weight="600">João Silva</text>
+<text x="58" y="877" fill="#9ca3af" font-size="11">joao@omniflow.com</text>
+<!-- Header with gradient -->
+<rect x="240" y="0" width="1200" height="160" fill="#6366f1"/>
+<rect x="240" y="0" width="1200" height="160" fill="#8b5cf6" opacity="0.4"/>
+<text x="840" y="56" fill="#fff" font-size="26" font-weight="700" text-anchor="middle">Central de Ajuda</text>
+<text x="840" y="82" fill="#e0e7ff" font-size="15" text-anchor="middle">Como podemos ajudar?</text>
+<!-- Search bar -->
+<rect x="540" y="100" width="600" height="44" rx="22" fill="#fff"/>
+<text x="570" y="128" fill="#9ca3af" font-size="14">🔍  Buscar artigos, tutoriais...</text>
+<!-- Categories Grid 3x2 -->
+<!-- Row 1 -->
+<rect x="272" y="184" width="288" height="120" rx="12" fill="#fff" stroke="#e5e7eb"/>
+<circle cx="316" cy="224" r="22" fill="#6366f1" opacity="0.12"/>
+<text x="316" y="232" fill="#111827" font-size="18" text-anchor="middle">🚀</text>
+<text x="350" y="220" fill="#111827" font-size="15" font-weight="600">Primeiros Passos</text>
+<text x="350" y="240" fill="#6b7280" font-size="12">5 artigos</text>
+
+<rect x="580" y="184" width="288" height="120" rx="12" fill="#fff" stroke="#e5e7eb"/>
+<circle cx="624" cy="224" r="22" fill="#8b5cf6" opacity="0.12"/>
+<text x="624" y="232" fill="#111827" font-size="18" text-anchor="middle">💬</text>
+<text x="658" y="220" fill="#111827" font-size="15" font-weight="600">Conversas</text>
+<text x="658" y="240" fill="#6b7280" font-size="12">8 artigos</text>
+
+<rect x="888" y="184" width="288" height="120" rx="12" fill="#fff" stroke="#e5e7eb"/>
+<circle cx="932" cy="224" r="22" fill="#10b981" opacity="0.12"/>
+<text x="932" y="232" fill="#111827" font-size="18" text-anchor="middle">👥</text>
+<text x="966" y="220" fill="#111827" font-size="15" font-weight="600">Clientes</text>
+<text x="966" y="240" fill="#6b7280" font-size="12">6 artigos</text>
+<!-- Row 2 -->
+<rect x="272" y="320" width="288" height="120" rx="12" fill="#fff" stroke="#e5e7eb"/>
+<circle cx="316" cy="360" r="22" fill="#f59e0b" opacity="0.12"/>
+<text x="316" y="368" fill="#111827" font-size="18" text-anchor="middle">📊</text>
+<text x="350" y="356" fill="#111827" font-size="15" font-weight="600">Analytics</text>
+<text x="350" y="376" fill="#6b7280" font-size="12">4 artigos</text>
+
+<rect x="580" y="320" width="288" height="120" rx="12" fill="#fff" stroke="#e5e7eb"/>
+<circle cx="624" cy="360" r="22" fill="#ef4444" opacity="0.12"/>
+<text x="624" y="368" fill="#111827" font-size="18" text-anchor="middle">🔗</text>
+<text x="658" y="356" fill="#111827" font-size="15" font-weight="600">Integrações</text>
+<text x="658" y="376" fill="#6b7280" font-size="12">7 artigos</text>
+
+<rect x="888" y="320" width="288" height="120" rx="12" fill="#fff" stroke="#e5e7eb"/>
+<circle cx="932" cy="360" r="22" fill="#6366f1" opacity="0.12"/>
+<text x="932" y="368" fill="#111827" font-size="18" text-anchor="middle">⚙️</text>
+<text x="966" y="356" fill="#111827" font-size="15" font-weight="600">Configurações</text>
+<text x="966" y="376" fill="#6b7280" font-size="12">10 artigos</text>
+<!-- FAQ Section -->
+<text x="272" y="480" fill="#111827" font-size="18" font-weight="700">Perguntas Frequentes</text>
+<!-- FAQ 1 -->
+<rect x="272" y="496" width="924" height="70" rx="10" fill="#fff" stroke="#e5e7eb"/>
+<text x="296" y="522" fill="#111827" font-size="14" font-weight="600">Como conectar WhatsApp?</text>
+<text x="296" y="544" fill="#6b7280" font-size="13">Acesse Configurações &gt; Integrações &gt; WhatsApp e siga o passo a passo para conectar via QR Code.</text>
+<text x="1168" y="522" fill="#9ca3af" font-size="16">▾</text>
+<!-- FAQ 2 -->
+<rect x="272" y="578" width="924" height="70" rx="10" fill="#fff" stroke="#e5e7eb"/>
+<text x="296" y="604" fill="#111827" font-size="14" font-weight="600">Como adicionar usuários?</text>
+<text x="296" y="626" fill="#6b7280" font-size="13">Vá em Configurações &gt; Equipe &gt; Convidar Membro e insira o email do novo usuário.</text>
+<text x="1168" y="604" fill="#9ca3af" font-size="16">▾</text>
+<!-- FAQ 3 -->
+<rect x="272" y="660" width="924" height="70" rx="10" fill="#fff" stroke="#e5e7eb"/>
+<text x="296" y="686" fill="#111827" font-size="14" font-weight="600">Como exportar relatórios?</text>
+<text x="296" y="708" fill="#6b7280" font-size="13">Em Relatórios, selecione o período desejado e clique em Exportar para baixar em PDF ou CSV.</text>
+<text x="1168" y="686" fill="#9ca3af" font-size="16">▾</text>
+<!-- Contact Section -->
+<rect x="272" y="752" width="924" height="100" rx="12" fill="#fff" stroke="#e5e7eb"/>
+<text x="734" y="786" fill="#111827" font-size="16" font-weight="700" text-anchor="middle">Ainda precisa de ajuda?</text>
+<rect x="600" y="800" width="140" height="38" rx="8" fill="#6366f1"/>
+<text x="670" y="824" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">💬 Chat ao Vivo</text>
+<rect x="756" y="800" width="140" height="38" rx="8" fill="#fff" stroke="#6366f1"/>
+<text x="826" y="824" fill="#6366f1" font-size="13" font-weight="600" text-anchor="middle">📧 Enviar Email</text>
+</svg>

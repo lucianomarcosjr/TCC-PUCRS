@@ -9,63 +9,65 @@ export function ForgotPassword() {
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setError('');
-
-    if (!email) {
-      setError('Digite seu email');
-      return;
-    }
-
-    // TODO: Implementar envio via API
+    if (!email) { setError('Digite seu email'); return; }
     setSuccess(true);
   };
 
-  if (success) {
-    return (
-      <div className="login">
-        <div className="login-card">
-          <div className="login-logo">
-            <h1 className="login-title">✉️</h1>
-            <h2 className="login-title">Email Enviado!</h2>
-            <p className="login-subtitle">Verifique sua caixa de entrada para redefinir sua senha</p>
-          </div>
-          <a href="/login" style={{ display: 'block', textAlign: 'center', color: 'var(--primary)', fontWeight: 600 }}>Voltar ao login</a>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div className="login">
-      <div className="login-card">
-        <div className="login-logo">
-          <h1 className="login-title">Recuperar Senha</h1>
-          <p className="login-subtitle">Digite seu email para receber o link de recuperação</p>
-        </div>
-        
-        <form onSubmit={handleSubmit} className="login-form">
-          <div className="form-group">
-            <label htmlFor="email" className="form-label">Email</label>
-            <input
-              type="email"
-              id="email"
-              className="form-input"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="seu@email.com"
-              required
-            />
+      <div className="login-left">
+        <div className="logo">⚡ OmniFlow</div>
+        <h2>Recupere o acesso<br />à sua conta</h2>
+        <p>Enviaremos um link seguro para redefinir sua senha</p>
+        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
+          <div style={{ width: 120, height: 120, borderRadius: '50%', background: 'rgba(255,255,255,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <div style={{ width: 80, height: 80, borderRadius: '50%', background: 'rgba(255,255,255,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '2.25rem' }}>
+              🔒
+            </div>
           </div>
+        </div>
+      </div>
 
-          {error && <div className="error-message">{error}</div>}
+      <div className="login-right">
+        <div className="login-card">
+          {success ? (
+            <>
+              <div className="login-logo">
+                <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>✉️</div>
+                <h1 className="login-title">Email Enviado!</h1>
+                <p className="login-subtitle">Verifique sua caixa de entrada para redefinir sua senha</p>
+              </div>
+              <a href="/login" style={{ display: 'block', textAlign: 'center', color: '#6366f1', fontWeight: 600 }}>← Voltar ao login</a>
+            </>
+          ) : (
+            <>
+              <a href="/login" style={{ color: '#6366f1', fontSize: '0.875rem', fontWeight: 500, textDecoration: 'none' }}>← Voltar ao login</a>
 
-          <button type="submit" className="login-button">
-            Enviar Link
-          </button>
-        </form>
+              <div style={{ textAlign: 'center', margin: '1.5rem 0' }}>
+                <div style={{ width: 72, height: 72, borderRadius: '50%', background: '#eef2ff', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: '2rem', marginBottom: '1rem' }}>🔒</div>
+                <h1 className="login-title">Esqueceu sua senha?</h1>
+                <p className="login-subtitle">Sem problemas! Digite seu email e enviaremos um link para redefinir.</p>
+              </div>
 
-        <p style={{ textAlign: 'center', marginTop: '1.5rem', fontSize: '0.875rem', color: 'var(--text-secondary)' }}>
-          Lembrou a senha? <a href="/login" style={{ color: 'var(--primary)', fontWeight: 600 }}>Voltar ao login</a>
-        </p>
+              <form onSubmit={handleSubmit} className="login-form">
+                <div className="form-group">
+                  <label className="form-label">Email</label>
+                  <input type="email" className="form-input" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="✉️  seu@email.com" required />
+                </div>
+
+                {error && <div className="error-message">{error}</div>}
+
+                <button type="submit" className="login-button">Enviar link de recuperação</button>
+              </form>
+
+              <div className="login-footer">
+                Lembrou a senha? <a href="/login">Fazer login</a>
+              </div>
+
+              <p style={{ textAlign: 'center', marginTop: '1.5rem', fontSize: '0.75rem', color: '#9ca3af' }}>🔒 Seus dados estão seguros conosco</p>
+            </>
+          )}
+        </div>
       </div>
     </div>
   );

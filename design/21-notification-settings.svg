@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" font-family="Inter, sans-serif">
+  <defs>
+    <clipPath id="clip"><rect width="1440" height="900" rx="8"/></clipPath>
+    <style>
+      text { fill: #1f2937; }
+      .sidebar-text { fill: #9ca3af; font-size: 13px; }
+      .sidebar-active { fill: #ffffff; font-size: 13px; }
+      .sub-sidebar-text { fill: #374151; font-size: 13px; }
+      .sub-sidebar-active { fill: #6366f1; font-size: 13px; font-weight: 600; }
+      .section-title { font-size: 16px; font-weight: 600; fill: #111827; }
+      .label { font-size: 13px; fill: #374151; font-weight: 500; }
+      .desc { font-size: 12px; fill: #9ca3af; }
+      .breadcrumb { font-size: 12px; fill: #6b7280; }
+      .breadcrumb-active { font-size: 12px; fill: #6366f1; }
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <!-- Background -->
+    <rect width="1440" height="900" fill="#fafafa"/>
+
+    <!-- Dark Sidebar -->
+    <rect width="240" height="900" fill="#111827"/>
+    <text x="24" y="36" font-size="20" font-weight="700" fill="#6366f1">⚡ OmniFlow</text>
+    <line x1="16" y1="52" x2="224" y2="52" stroke="#1f2937" stroke-width="1"/>
+
+    <text x="24" y="80" class="sidebar-text">💬  Conversas</text>
+    <text x="24" y="112" class="sidebar-text">👥  Clientes</text>
+    <text x="24" y="144" class="sidebar-text">📊  Analytics</text>
+    <text x="24" y="176" class="sidebar-text">🔔  Notificações</text>
+    <text x="24" y="208" class="sidebar-text">⚡  Automações</text>
+    <text x="24" y="240" class="sidebar-text">📄  Relatórios</text>
+
+    <line x1="16" y1="260" x2="224" y2="260" stroke="#1f2937" stroke-width="1"/>
+
+    <rect x="8" y="272" width="224" height="32" rx="6" fill="#6366f1" opacity="0.15"/>
+    <text x="24" y="293" class="sidebar-active" fill="#6366f1" font-weight="600">⚙️  Configurações</text>
+    <text x="24" y="325" class="sidebar-text">👤  Perfil</text>
+    <text x="24" y="357" class="sidebar-text">❓  Ajuda</text>
+
+    <!-- User card -->
+    <rect x="8" y="848" width="224" height="44" rx="8" fill="#1f2937"/>
+    <circle cx="30" cy="870" r="14" fill="#6366f1"/>
+    <text x="30" y="874" font-size="11" fill="white" text-anchor="middle">LC</text>
+    <text x="52" y="865" font-size="12" fill="#ffffff" font-weight="500">Luciano Costa</text>
+    <text x="52" y="880" font-size="10" fill="#9ca3af">luciano@omniflow.io</text>
+
+    <!-- Settings Sub-sidebar -->
+    <rect x="240" y="0" width="220" height="900" fill="#ffffff"/>
+    <rect x="240" y="0" width="220" height="900" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="260" y="36" font-size="14" font-weight="600" fill="#111827">Configurações</text>
+    <line x1="252" y1="50" x2="448" y2="50" stroke="#e5e7eb" stroke-width="1"/>
+
+    <text x="260" y="76" class="sub-sidebar-text">Perfil</text>
+    <text x="260" y="104" class="sub-sidebar-text">Empresa</text>
+    <text x="260" y="132" class="sub-sidebar-text">Canais</text>
+    <text x="260" y="160" class="sub-sidebar-text">Usuários</text>
+    <text x="260" y="188" class="sub-sidebar-text">Planos</text>
+    <rect x="248" y="200" width="204" height="30" rx="6" fill="#eef2ff"/>
+    <text x="260" y="220" class="sub-sidebar-active">Notificações</text>
+    <text x="260" y="252" class="sub-sidebar-text">Integrações</text>
+
+    <!-- Main Content Area -->
+    <text x="488" y="32" class="breadcrumb">Dashboard  ›  Configurações  ›  <tspan class="breadcrumb-active">Notificações</tspan></text>
+    <text x="488" y="68" font-size="22" font-weight="700" fill="#111827">Configurações de Notificações</text>
+
+    <!-- Section: Tipos de Notificação -->
+    <rect x="488" y="92" width="720" height="380" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="512" y="122" class="section-title">Tipos de Notificação</text>
+    <line x1="512" y1="136" x2="1184" y2="136" stroke="#f3f4f6" stroke-width="1"/>
+
+    <!-- Toggle 1: Novas Mensagens ON -->
+    <text x="512" y="168" font-size="14" fill="#111827" font-weight="500">💬  Novas Mensagens</text>
+    <text x="512" y="184" class="desc">Receber notificações de novas mensagens</text>
+    <rect x="1140" y="156" width="40" height="22" rx="11" fill="#6366f1"/>
+    <circle cx="1168" cy="167" r="8" fill="#ffffff"/>
+
+    <!-- Toggle 2: Atribuições ON -->
+    <text x="512" y="220" font-size="14" fill="#111827" font-weight="500">👤  Atribuições</text>
+    <text x="512" y="236" class="desc">Quando uma conversa for atribuída a você</text>
+    <rect x="1140" y="208" width="40" height="22" rx="11" fill="#6366f1"/>
+    <circle cx="1168" cy="219" r="8" fill="#ffffff"/>
+
+    <!-- Toggle 3: Menções ON -->
+    <text x="512" y="272" font-size="14" fill="#111827" font-weight="500">@  Menções</text>
+    <text x="512" y="288" class="desc">Quando você for mencionado</text>
+    <rect x="1140" y="260" width="40" height="22" rx="11" fill="#6366f1"/>
+    <circle cx="1168" cy="271" r="8" fill="#ffffff"/>
+
+    <!-- Toggle 4: Email OFF -->
+    <text x="512" y="324" font-size="14" fill="#111827" font-weight="500">📧  Email</text>
+    <text x="512" y="340" class="desc">Receber resumo diário por email</text>
+    <rect x="1140" y="312" width="40" height="22" rx="11" fill="#d1d5db"/>
+    <circle cx="1152" cy="323" r="8" fill="#ffffff"/>
+
+    <!-- Toggle 5: Som ON -->
+    <text x="512" y="376" font-size="14" fill="#111827" font-weight="500">🔊  Som</text>
+    <text x="512" y="392" class="desc">Reproduzir som ao receber notificações</text>
+    <rect x="1140" y="364" width="40" height="22" rx="11" fill="#6366f1"/>
+    <circle cx="1168" cy="375" r="8" fill="#ffffff"/>
+
+    <!-- Dividers between toggles -->
+    <line x1="512" y1="196" x2="1184" y2="196" stroke="#f3f4f6" stroke-width="1"/>
+    <line x1="512" y1="248" x2="1184" y2="248" stroke="#f3f4f6" stroke-width="1"/>
+    <line x1="512" y1="300" x2="1184" y2="300" stroke="#f3f4f6" stroke-width="1"/>
+    <line x1="512" y1="352" x2="1184" y2="352" stroke="#f3f4f6" stroke-width="1"/>
+
+    <!-- Section: Horário de Silêncio -->
+    <rect x="488" y="492" width="720" height="170" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="512" y="522" class="section-title">🌙  Horário de Silêncio</text>
+    <line x1="512" y1="536" x2="1184" y2="536" stroke="#f3f4f6" stroke-width="1"/>
+
+    <text x="512" y="564" class="label">Início</text>
+    <rect x="512" y="572" width="150" height="36" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+    <text x="524" y="595" font-size="13" fill="#111827">22:00</text>
+
+    <text x="680" y="564" class="label">Fim</text>
+    <rect x="680" y="572" width="150" height="36" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+    <text x="692" y="595" font-size="13" fill="#111827">08:00</text>
+
+    <text x="512" y="634" class="desc">Notificações silenciadas neste período</text>
+
+    <!-- Save Button -->
+    <rect x="488" y="684" width="180" height="42" rx="8" fill="#6366f1"/>
+    <text x="578" y="710" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">Salvar Preferências</text>
+  </g>
+</svg>

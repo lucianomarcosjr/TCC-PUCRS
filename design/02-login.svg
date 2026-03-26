@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <clipPath id="leftClip"><rect width="864" height="900"/></clipPath>
+  </defs>
+
+  <!-- LEFT SIDE 60% -->
+  <rect width="864" height="900" fill="url(#grad)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="750" cy="120" r="180" fill="#818cf8" opacity=".12"/>
+  <circle cx="100" cy="780" r="140" fill="#818cf8" opacity=".1"/>
+  <circle cx="680" cy="700" r="100" fill="#a5b4fc" opacity=".08"/>
+  <circle cx="200" cy="200" r="60" fill="#c7d2fe" opacity=".1"/>
+  <circle cx="500" cy="500" r="220" fill="#818cf8" opacity=".06"/>
+
+  <!-- Logo -->
+  <circle cx="80" cy="56" r="18" fill="white" opacity=".9"/>
+  <text x="108" y="64" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="white">OmniFlow</text>
+
+  <!-- Tagline -->
+  <text x="80" y="340" font-family="Inter,sans-serif" font-size="38" font-weight="700" fill="white">Centralize seu</text>
+  <text x="80" y="388" font-family="Inter,sans-serif" font-size="38" font-weight="700" fill="white">atendimento</text>
+  <text x="80" y="430" font-family="Inter,sans-serif" font-size="16" fill="#c7d2fe">Plataforma completa para gestão de comunicação</text>
+
+  <!-- Benefit bullets -->
+  <g font-family="Inter,sans-serif" font-size="16" fill="white">
+    <!-- Bullet 1 -->
+    <circle cx="96" cy="490" r="14" fill="#818cf8"/>
+    <text x="88" y="495" font-size="14" fill="white">✓</text>
+    <text x="120" y="496">Chat unificado</text>
+    <!-- Bullet 2 -->
+    <circle cx="96" cy="534" r="14" fill="#818cf8"/>
+    <text x="88" y="539" font-size="14" fill="white">✓</text>
+    <text x="120" y="540">Analytics em tempo real</text>
+    <!-- Bullet 3 -->
+    <circle cx="96" cy="578" r="14" fill="#818cf8"/>
+    <text x="88" y="583" font-size="14" fill="white">✓</text>
+    <text x="120" y="584">Gestão de equipe</text>
+  </g>
+
+  <!-- Decorative illustration placeholder -->
+  <rect x="420" y="300" width="360" height="280" rx="24" fill="white" opacity=".07"/>
+  <circle cx="540" cy="400" r="50" fill="white" opacity=".08"/>
+  <circle cx="640" cy="460" r="35" fill="#a5b4fc" opacity=".1"/>
+  <rect x="480" y="480" width="180" height="12" rx="6" fill="white" opacity=".08"/>
+  <rect x="510" y="504" width="120" height="8" rx="4" fill="white" opacity=".06"/>
+
+  <!-- RIGHT SIDE 40% -->
+  <rect x="864" width="576" height="900" fill="#fafafa"/>
+
+  <!-- Login form card -->
+  <rect x="944" y="160" width="416" height="580" rx="16" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="1152" y="220" font-family="Inter,sans-serif" font-size="24" font-weight="700" fill="#111827" text-anchor="middle">Bem-vindo de volta</text>
+  <text x="1152" y="248" font-family="Inter,sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Entre na sua conta para continuar</text>
+
+  <!-- Email label -->
+  <text x="984" y="296" font-family="Inter,sans-serif" font-size="13" font-weight="500" fill="#374151">Email</text>
+  <!-- Email input -->
+  <rect x="984" y="304" width="336" height="44" rx="8" fill="white" stroke="#d1d5db" stroke-width="1"/>
+  <text x="1004" y="331" font-size="16">📧</text>
+  <text x="1032" y="331" font-family="Inter,sans-serif" font-size="14" fill="#9ca3af">seu@email.com</text>
+
+  <!-- Password label -->
+  <text x="984" y="376" font-family="Inter,sans-serif" font-size="13" font-weight="500" fill="#374151">Senha</text>
+  <!-- Password input -->
+  <rect x="984" y="384" width="336" height="44" rx="8" fill="white" stroke="#d1d5db" stroke-width="1"/>
+  <text x="1004" y="411" font-size="16">🔒</text>
+  <text x="1032" y="411" font-family="Inter,sans-serif" font-size="14" fill="#9ca3af">••••••••</text>
+  <!-- Eye icon -->
+  <g transform="translate(1296,398)" fill="none" stroke="#9ca3af" stroke-width="1.5" stroke-linecap="round">
+    <path d="M1 7s3-5 8-5 8 5 8 5-3 5-8 5-8-5-8-5z"/>
+    <circle cx="9" cy="7" r="2.5"/>
+  </g>
+
+  <!-- Remember / Forgot row -->
+  <rect x="984" y="448" width="16" height="16" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+  <text x="1008" y="461" font-family="Inter,sans-serif" font-size="13" fill="#374151">Lembrar de mim</text>
+  <text x="1320" y="461" font-family="Inter,sans-serif" font-size="13" fill="#6366f1" text-anchor="end">Esqueceu a senha?</text>
+
+  <!-- Entrar button -->
+  <rect x="984" y="488" width="336" height="46" rx="10" fill="#6366f1"/>
+  <text x="1140" y="516" font-family="Inter,sans-serif" font-size="15" font-weight="600" fill="white" text-anchor="middle">Entrar</text>
+  <text x="1180" y="517" font-family="Inter,sans-serif" font-size="16" fill="white">→</text>
+
+  <!-- Divider -->
+  <line x1="984" y1="558" x2="1108" y2="558" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="1152" y="563" font-family="Inter,sans-serif" font-size="12" fill="#9ca3af" text-anchor="middle">ou continue com</text>
+  <line x1="1196" y1="558" x2="1320" y2="558" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Google button -->
+  <rect x="984" y="582" width="336" height="44" rx="10" fill="white" stroke="#d1d5db" stroke-width="1"/>
+  <text x="1120" y="609" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#4285F4">G</text>
+  <text x="1142" y="609" font-family="Inter,sans-serif" font-size="14" font-weight="500" fill="#374151">Google</text>
+
+  <!-- Bottom link -->
+  <text x="1152" y="660" font-family="Inter,sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Não tem conta?
+    <tspan fill="#6366f1" font-weight="600"> Criar conta grátis</tspan>
+  </text>
+</svg>

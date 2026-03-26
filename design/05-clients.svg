@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text{font-family:'Inter',sans-serif}
+    </style>
+  </defs>
+  <!-- BG -->
+  <rect width="1440" height="900" fill="#fafafa"/>
+  <!-- Sidebar -->
+  <rect width="260" height="900" fill="#111827"/>
+  <text x="32" y="40" fill="#fff" font-size="22" font-weight="700">🌀 OmniFlow</text>
+  <text x="32" y="58" fill="#9ca3af" font-size="11">Plataforma de Atendimento</text>
+  <line x1="20" y1="70" x2="240" y2="70" stroke="#1f2937" stroke-width="1"/>
+  <!-- Nav Items -->
+  <g fill="#9ca3af" font-size="14">
+    <rect x="12" y="80" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="104">💬  Conversas</text>
+    <rect x="12" y="122" width="236" height="38" rx="8" fill="#6366f1" opacity="0.15"/>
+    <text x="44" y="146" fill="#818cf8">👥  Clientes</text>
+    <rect x="12" y="164" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="188">📊  Analytics</text>
+    <rect x="12" y="206" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="230">🔔  Notificações</text>
+    <rect x="12" y="248" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="272">⚡  Automações</text>
+    <rect x="12" y="290" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="314">📋  Relatórios</text>
+  </g>
+  <line x1="20" y1="342" x2="240" y2="342" stroke="#1f2937" stroke-width="1"/>
+  <g fill="#9ca3af" font-size="14">
+    <rect x="12" y="354" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="378">⚙️  Configurações</text>
+    <rect x="12" y="396" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="420">👤  Perfil</text>
+    <rect x="12" y="438" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="462">❓  Ajuda</text>
+  </g>
+  <!-- User Card -->
+  <rect x="12" y="840" width="236" height="50" rx="10" fill="#1f2937"/>
+  <circle cx="40" cy="865" r="16" fill="#6366f1"/>
+  <text x="34" y="870" fill="#fff" font-size="11" font-weight="600">LC</text>
+  <text x="62" y="860" fill="#fff" font-size="13" font-weight="500">Luciano Costa</text>
+  <text x="62" y="876" fill="#9ca3af" font-size="11">Admin</text>
+
+  <!-- Main Content -->
+  <!-- Breadcrumb -->
+  <text x="292" y="36" fill="#9ca3af" font-size="13">Dashboard</text>
+  <text x="360" y="36" fill="#9ca3af" font-size="13">&gt;</text>
+  <text x="376" y="36" fill="#6366f1" font-size="13" font-weight="500">Clientes</text>
+
+  <!-- Header Row -->
+  <text x="292" y="72" fill="#111827" font-size="24" font-weight="700">Clientes</text>
+  <text x="292" y="92" fill="#6b7280" font-size="13">128 clientes cadastrados</text>
+
+  <!-- Search Bar (pill) -->
+  <rect x="680" y="58" width="260" height="38" rx="19" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="708" y="82" fill="#9ca3af" font-size="13">🔍  Buscar clientes...</text>
+
+  <!-- Filter Dropdown -->
+  <rect x="952" y="58" width="180" height="38" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="968" y="82" fill="#374151" font-size="13">Todos os status  ▾</text>
+
+  <!-- New Client Button -->
+  <rect x="1148" y="58" width="160" height="38" rx="8" fill="#6366f1"/>
+  <text x="1178" y="82" fill="#fff" font-size="14" font-weight="600">+ Novo Cliente</text>
+
+  <!-- Table Card -->
+  <rect x="280" y="112" width="1140" height="520" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Table Header -->
+  <rect x="280" y="112" width="1140" height="44" rx="12" fill="#f9fafb"/>
+  <rect x="280" y="140" width="1140" height="16" fill="#f9fafb"/>
+  <text x="308" y="140" fill="#6b7280" font-size="12" font-weight="600">CLIENTE</text>
+  <text x="560" y="140" fill="#6b7280" font-size="12" font-weight="600">TELEFONE</text>
+  <text x="720" y="140" fill="#6b7280" font-size="12" font-weight="600">TAGS</text>
+  <text x="940" y="140" fill="#6b7280" font-size="12" font-weight="600">ÚLTIMA INTERAÇÃO</text>
+  <text x="1140" y="140" fill="#6b7280" font-size="12" font-weight="600">AÇÕES</text>
+
+  <!-- Row 1 (white) -->
+  <rect x="281" y="156" width="1138" height="60" fill="#fff"/>
+  <circle cx="316" cy="186" r="18" fill="#6366f1"/>
+  <text x="308" y="191" fill="#fff" font-size="12" font-weight="600">MC</text>
+  <text x="344" y="180" fill="#111827" font-size="14" font-weight="600">Maria Costa</text>
+  <text x="344" y="196" fill="#9ca3af" font-size="12">maria.costa@email.com</text>
+  <text x="560" y="190" fill="#374151" font-size="13">(11) 99876-5432</text>
+  <rect x="720" y="176" width="52" height="22" rx="11" fill="#dbeafe"/>
+  <text x="730" y="191" fill="#3b82f6" font-size="11" font-weight="500">VIP</text>
+  <rect x="778" y="176" width="56" height="22" rx="11" fill="#d1fae5"/>
+  <text x="786" y="191" fill="#10b981" font-size="11" font-weight="500">Ativo</text>
+  <text x="940" y="190" fill="#374151" font-size="13">Há 2 horas</text>
+  <text x="1148" y="190" fill="#6b7280" font-size="16" cursor="pointer">👁</text>
+  <text x="1180" y="190" fill="#6b7280" font-size="16" cursor="pointer">✏️</text>
+  <text x="1212" y="190" fill="#ef4444" font-size="16" cursor="pointer">🗑</text>
+
+  <!-- Row 2 (alt bg) -->
+  <rect x="281" y="216" width="1138" height="60" fill="#fafafa"/>
+  <circle cx="316" cy="246" r="18" fill="#8b5cf6"/>
+  <text x="308" y="251" fill="#fff" font-size="12" font-weight="600">JS</text>
+  <text x="344" y="240" fill="#111827" font-size="14" font-weight="600">João Silva</text>
+  <text x="344" y="256" fill="#9ca3af" font-size="12">joao.silva@email.com</text>
+  <text x="560" y="250" fill="#374151" font-size="13">(21) 98765-4321</text>
+  <rect x="720" y="236" width="72" height="22" rx="11" fill="#fef3c7"/>
+  <text x="728" y="251" fill="#d97706" font-size="11" font-weight="500">Prospect</text>
+  <text x="940" y="250" fill="#374151" font-size="13">Há 5 horas</text>
+  <text x="1148" y="250" fill="#6b7280" font-size="16">👁</text>
+  <text x="1180" y="250" fill="#6b7280" font-size="16">✏️</text>
+  <text x="1212" y="250" fill="#ef4444" font-size="16">🗑</text>
+
+  <!-- Row 3 (white, hover state) -->
+  <rect x="281" y="276" width="1138" height="60" fill="#eef2ff"/>
+  <circle cx="316" cy="306" r="18" fill="#10b981"/>
+  <text x="308" y="311" fill="#fff" font-size="12" font-weight="600">AF</text>
+  <text x="344" y="300" fill="#111827" font-size="14" font-weight="600">Ana Ferreira</text>
+  <text x="344" y="316" fill="#9ca3af" font-size="12">ana.ferreira@email.com</text>
+  <text x="560" y="310" fill="#374151" font-size="13">(31) 97654-3210</text>
+  <rect x="720" y="296" width="56" height="22" rx="11" fill="#d1fae5"/>
+  <text x="728" y="311" fill="#10b981" font-size="11" font-weight="500">Ativo</text>
+  <rect x="782" y="296" width="64" height="22" rx="11" fill="#ede9fe"/>
+  <text x="790" y="311" fill="#8b5cf6" font-size="11" font-weight="500">Premium</text>
+  <text x="940" y="310" fill="#374151" font-size="13">Há 1 dia</text>
+  <text x="1148" y="310" fill="#6b7280" font-size="16">👁</text>
+  <text x="1180" y="310" fill="#6b7280" font-size="16">✏️</text>
+  <text x="1212" y="310" fill="#ef4444" font-size="16">🗑</text>
+
+  <!-- Row 4 (alt bg) -->
+  <rect x="281" y="336" width="1138" height="60" fill="#fafafa"/>
+  <circle cx="316" cy="366" r="18" fill="#f59e0b"/>
+  <text x="308" y="371" fill="#fff" font-size="12" font-weight="600">PO</text>
+  <text x="344" y="360" fill="#111827" font-size="14" font-weight="600">Pedro Oliveira</text>
+  <text x="344" y="376" fill="#9ca3af" font-size="12">pedro.oliveira@email.com</text>
+  <text x="560" y="370" fill="#374151" font-size="13">(41) 96543-2109</text>
+  <rect x="720" y="356" width="68" height="22" rx="11" fill="#fee2e2"/>
+  <text x="728" y="371" fill="#ef4444" font-size="11" font-weight="500">Inativo</text>
+  <text x="940" y="370" fill="#374151" font-size="13">Há 3 dias</text>
+  <text x="1148" y="370" fill="#6b7280" font-size="16">👁</text>
+  <text x="1180" y="370" fill="#6b7280" font-size="16">✏️</text>
+  <text x="1212" y="370" fill="#ef4444" font-size="16">🗑</text>
+
+  <!-- Row 5 (white) -->
+  <rect x="281" y="396" width="1138" height="60" fill="#fff"/>
+  <circle cx="316" cy="426" r="18" fill="#ec4899"/>
+  <text x="308" y="431" fill="#fff" font-size="12" font-weight="600">LS</text>
+  <text x="344" y="420" fill="#111827" font-size="14" font-weight="600">Lucia Santos</text>
+  <text x="344" y="436" fill="#9ca3af" font-size="12">lucia.santos@email.com</text>
+  <text x="560" y="430" fill="#374151" font-size="13">(51) 95432-1098</text>
+  <rect x="720" y="416" width="52" height="22" rx="11" fill="#dbeafe"/>
+  <text x="730" y="431" fill="#3b82f6" font-size="11" font-weight="500">VIP</text>
+  <rect x="778" y="416" width="56" height="22" rx="11" fill="#d1fae5"/>
+  <text x="786" y="431" fill="#10b981" font-size="11" font-weight="500">Ativo</text>
+  <text x="940" y="430" fill="#374151" font-size="13">Há 6 horas</text>
+  <text x="1148" y="430" fill="#6b7280" font-size="16">👁</text>
+  <text x="1180" y="430" fill="#6b7280" font-size="16">✏️</text>
+  <text x="1212" y="430" fill="#ef4444" font-size="16">🗑</text>
+
+  <!-- Row 6 (alt bg) -->
+  <rect x="281" y="456" width="1138" height="60" fill="#fafafa"/>
+  <circle cx="316" cy="486" r="18" fill="#14b8a6"/>
+  <text x="308" y="491" fill="#fff" font-size="12" font-weight="600">RA</text>
+  <text x="344" y="480" fill="#111827" font-size="14" font-weight="600">Ricardo Almeida</text>
+  <text x="344" y="496" fill="#9ca3af" font-size="12">ricardo.almeida@email.com</text>
+  <text x="560" y="490" fill="#374151" font-size="13">(61) 94321-0987</text>
+  <rect x="720" y="476" width="72" height="22" rx="11" fill="#fef3c7"/>
+  <text x="728" y="491" fill="#d97706" font-size="11" font-weight="500">Prospect</text>
+  <text x="940" y="490" fill="#374151" font-size="13">Há 2 dias</text>
+  <text x="1148" y="490" fill="#6b7280" font-size="16">👁</text>
+  <text x="1180" y="490" fill="#6b7280" font-size="16">✏️</text>
+  <text x="1212" y="490" fill="#ef4444" font-size="16">🗑</text>
+
+  <!-- Pagination -->
+  <g transform="translate(600,548)">
+    <rect x="0" y="0" width="80" height="34" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="16" y="22" fill="#6b7280" font-size="13">← Anterior</text>
+    <rect x="92" y="0" width="34" height="34" rx="8" fill="#6366f1"/>
+    <text x="105" y="22" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">1</text>
+    <rect x="132" y="0" width="34" height="34" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="149" y="22" fill="#374151" font-size="13" text-anchor="middle">2</text>
+    <rect x="172" y="0" width="34" height="34" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="189" y="22" fill="#374151" font-size="13" text-anchor="middle">3</text>
+    <text x="222" y="22" fill="#9ca3af" font-size="13">...</text>
+    <rect x="244" y="0" width="34" height="34" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="261" y="22" fill="#374151" font-size="13" text-anchor="middle">22</text>
+    <rect x="290" y="0" width="80" height="34" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="304" y="22" fill="#6b7280" font-size="13">Próxima →</text>
+  </g>
+  <text x="760" y="610" fill="#9ca3af" font-size="12" text-anchor="middle">Página 1 de 22</text>
+
+  <!-- Hint -->
+  <rect x="280" y="650" width="1140" height="40" rx="8" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1"/>
+  <text x="850" y="675" fill="#6366f1" font-size="13" text-anchor="middle">💡 Dica: Use filtros para encontrar clientes rapidamente</text>
+</svg>

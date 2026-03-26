@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text{font-family:'Inter',sans-serif}
+    </style>
+    <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="900" fill="#fafafa"/>
+  <!-- Sidebar -->
+  <rect width="260" height="900" fill="#111827"/>
+  <text x="32" y="40" fill="#fff" font-size="22" font-weight="700">🌀 OmniFlow</text>
+  <text x="32" y="58" fill="#9ca3af" font-size="11">Plataforma de Atendimento</text>
+  <line x1="20" y1="70" x2="240" y2="70" stroke="#1f2937" stroke-width="1"/>
+  <g fill="#9ca3af" font-size="14">
+    <rect x="12" y="80" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="104">💬  Conversas</text>
+    <rect x="12" y="122" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="146">👥  Clientes</text>
+    <rect x="12" y="164" width="236" height="38" rx="8" fill="#6366f1" opacity="0.15"/>
+    <text x="44" y="188" fill="#818cf8">📊  Analytics</text>
+    <rect x="12" y="206" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="230">🔔  Notificações</text>
+    <rect x="12" y="248" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="272">⚡  Automações</text>
+    <rect x="12" y="290" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="314">📋  Relatórios</text>
+  </g>
+  <line x1="20" y1="342" x2="240" y2="342" stroke="#1f2937" stroke-width="1"/>
+  <g fill="#9ca3af" font-size="14">
+    <rect x="12" y="354" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="378">⚙️  Configurações</text>
+    <rect x="12" y="396" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="420">👤  Perfil</text>
+    <rect x="12" y="438" width="236" height="38" rx="8" fill="transparent"/>
+    <text x="44" y="462">❓  Ajuda</text>
+  </g>
+  <rect x="12" y="840" width="236" height="50" rx="10" fill="#1f2937"/>
+  <circle cx="40" cy="865" r="16" fill="#6366f1"/>
+  <text x="34" y="870" fill="#fff" font-size="11" font-weight="600">LC</text>
+  <text x="62" y="860" fill="#fff" font-size="13" font-weight="500">Luciano Costa</text>
+  <text x="62" y="876" fill="#9ca3af" font-size="11">Admin</text>
+
+  <!-- Main Content -->
+  <text x="292" y="36" fill="#9ca3af" font-size="13">Dashboard</text>
+  <text x="360" y="36" fill="#9ca3af" font-size="13">&gt;</text>
+  <text x="376" y="36" fill="#6366f1" font-size="13" font-weight="500">Analytics</text>
+
+  <text x="292" y="72" fill="#111827" font-size="24" font-weight="700">Analytics</text>
+
+  <!-- Date Range Picker -->
+  <rect x="780" y="52" width="220" height="38" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="808" y="76" fill="#374151" font-size="13">📅  01 Jan - 31 Jan 2025</text>
+
+  <!-- Compare checkbox -->
+  <rect x="1012" y="62" width="16" height="16" rx="3" fill="#6366f1"/>
+  <text x="1016" y="74" fill="#fff" font-size="11" font-weight="700">✓</text>
+  <text x="1036" y="76" fill="#6b7280" font-size="12">Comparar com período anterior</text>
+
+  <!-- Export Button -->
+  <rect x="1280" y="52" width="120" height="38" rx="8" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="1304" y="76" fill="#374151" font-size="13">⬇ Exportar</text>
+
+  <!-- 4 Metric Cards -->
+  <!-- Card 1 -->
+  <rect x="280" y="100" width="262" height="120" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="312" cy="132" r="20" fill="#eef2ff"/>
+  <text x="305" y="138" fill="#6366f1" font-size="18">💬</text>
+  <text x="344" y="128" fill="#6b7280" font-size="12">Total Conversas</text>
+  <text x="344" y="156" fill="#111827" font-size="28" font-weight="700">2,847</text>
+  <text x="344" y="176" fill="#10b981" font-size="12" font-weight="500">↑ 12.5% vs período anterior</text>
+  <!-- Mini sparkline -->
+  <polyline points="380,200 395,194 410,196 425,188 440,190 455,182 470,178 485,172 500,168 515,164" fill="none" stroke="#6366f1" stroke-width="2" opacity="0.5"/>
+
+  <!-- Card 2 -->
+  <rect x="554" y="100" width="262" height="120" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="586" cy="132" r="20" fill="#d1fae5"/>
+  <text x="579" y="138" fill="#10b981" font-size="18">✅</text>
+  <text x="618" y="128" fill="#6b7280" font-size="12">Taxa Resolução</text>
+  <text x="618" y="156" fill="#111827" font-size="28" font-weight="700">94.2%</text>
+  <text x="618" y="176" fill="#10b981" font-size="12" font-weight="500">↑ 3.1% vs período anterior</text>
+  <polyline points="654,200 669,196 684,198 699,192 714,186 729,188 744,180 759,176 774,170 789,166" fill="none" stroke="#10b981" stroke-width="2" opacity="0.5"/>
+
+  <!-- Card 3 -->
+  <rect x="828" y="100" width="262" height="120" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="860" cy="132" r="20" fill="#fef3c7"/>
+  <text x="853" y="138" fill="#f59e0b" font-size="18">⏱</text>
+  <text x="892" y="128" fill="#6b7280" font-size="12">Tempo Médio Resposta</text>
+  <text x="892" y="156" fill="#111827" font-size="28" font-weight="700">2m 34s</text>
+  <text x="892" y="176" fill="#10b981" font-size="12" font-weight="500">↓ 18% vs período anterior</text>
+  <polyline points="928,200 943,196 958,200 973,194 988,198 1003,190 1018,186 1033,182 1048,178 1063,180" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+
+  <!-- Card 4 -->
+  <rect x="1102" y="100" width="262" height="120" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="1134" cy="132" r="20" fill="#ede9fe"/>
+  <text x="1127" y="138" fill="#8b5cf6" font-size="18">⭐</text>
+  <text x="1166" y="128" fill="#6b7280" font-size="12">Satisfação (CSAT)</text>
+  <text x="1166" y="156" fill="#111827" font-size="28" font-weight="700">4.8</text>
+  <text x="1166" y="176" fill="#ef4444" font-size="12" font-weight="500">↓ 0.2 vs período anterior</text>
+  <polyline points="1202,200 1217,198 1232,194 1247,196 1262,200 1277,198 1292,202 1307,196 1322,198 1337,200" fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.5"/>
+
+  <!-- Line Chart Card -->
+  <rect x="280" y="236" width="560" height="320" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="304" y="268" fill="#111827" font-size="16" font-weight="600">Conversas por dia</text>
+  <!-- Y axis labels -->
+  <text x="296" y="300" fill="#9ca3af" font-size="10">150</text>
+  <text x="296" y="340" fill="#9ca3af" font-size="10">100</text>
+  <text x="300" y="380" fill="#9ca3af" font-size="10">50</text>
+  <text x="308" y="420" fill="#9ca3af" font-size="10">0</text>
+  <!-- Grid lines -->
+  <line x1="324" y1="296" x2="820" y2="296" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="324" y1="336" x2="820" y2="336" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="324" y1="376" x2="820" y2="376" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="324" y1="416" x2="820" y2="416" stroke="#f3f4f6" stroke-width="1"/>
+  <!-- Area fill -->
+  <polygon points="324,416 360,370 400,350 440,360 480,330 520,310 560,320 600,290 640,300 680,280 720,290 760,270 800,260 820,265 820,416" fill="url(#areaGrad)"/>
+  <!-- Line -->
+  <polyline points="324,416 360,370 400,350 440,360 480,330 520,310 560,320 600,290 640,300 680,280 720,290 760,270 800,260" fill="none" stroke="#6366f1" stroke-width="2.5"/>
+  <!-- Tooltip on data point -->
+  <circle cx="680" cy="280" r="5" fill="#6366f1" stroke="#fff" stroke-width="2"/>
+  <rect x="650" y="248" width="80" height="28" rx="6" fill="#111827"/>
+  <text x="670" y="266" fill="#fff" font-size="11" font-weight="500">128 conv.</text>
+  <!-- X axis labels -->
+  <text x="340" y="440" fill="#9ca3af" font-size="10">Seg</text>
+  <text x="420" y="440" fill="#9ca3af" font-size="10">Ter</text>
+  <text x="500" y="440" fill="#9ca3af" font-size="10">Qua</text>
+  <text x="580" y="440" fill="#9ca3af" font-size="10">Qui</text>
+  <text x="660" y="440" fill="#9ca3af" font-size="10">Sex</text>
+  <text x="740" y="440" fill="#9ca3af" font-size="10">Sáb</text>
+  <text x="800" y="440" fill="#9ca3af" font-size="10">Dom</text>
+
+  <!-- Bar Chart Card -->
+  <rect x="856" y="236" width="508" height="320" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="880" y="268" fill="#111827" font-size="16" font-weight="600">Mensagens por canal</text>
+  <!-- Legend -->
+  <circle cx="1100" cy="264" r="5" fill="#6366f1"/>
+  <text x="1110" y="268" fill="#6b7280" font-size="11">WhatsApp</text>
+  <circle cx="1190" cy="264" r="5" fill="#8b5cf6"/>
+  <text x="1200" y="268" fill="#6b7280" font-size="11">Instagram</text>
+  <circle cx="1280" cy="264" r="5" fill="#10b981"/>
+  <text x="1290" y="268" fill="#6b7280" font-size="11">Email</text>
+  <!-- Bars with rounded tops -->
+  <rect x="910" y="310" width="40" height="130" rx="6" fill="#6366f1"/>
+  <rect x="956" y="350" width="40" height="90" rx="6" fill="#8b5cf6"/>
+  <rect x="1002" y="370" width="40" height="70" rx="6" fill="#10b981"/>
+
+  <rect x="1072" y="330" width="40" height="110" rx="6" fill="#6366f1"/>
+  <rect x="1118" y="360" width="40" height="80" rx="6" fill="#8b5cf6"/>
+  <rect x="1164" y="380" width="40" height="60" rx="6" fill="#10b981"/>
+
+  <rect x="1234" y="320" width="40" height="120" rx="6" fill="#6366f1"/>
+  <rect x="1280" y="340" width="40" height="100" rx="6" fill="#8b5cf6"/>
+  <rect x="1326" y="390" width="40" height="50" rx="6" fill="#10b981"/>
+  <!-- X labels -->
+  <text x="940" y="460" fill="#9ca3af" font-size="11" text-anchor="middle">Semana 1</text>
+  <text x="1102" y="460" fill="#9ca3af" font-size="11" text-anchor="middle">Semana 2</text>
+  <text x="1264" y="460" fill="#9ca3af" font-size="11" text-anchor="middle">Semana 3</text>
+  <!-- Baseline -->
+  <line x1="890" y1="440" x2="1350" y2="440" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Top Atendentes Table -->
+  <rect x="280" y="572" width="1084" height="220" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="304" y="604" fill="#111827" font-size="16" font-weight="600">🏆 Top Atendentes</text>
+  <!-- Table Header -->
+  <text x="308" y="636" fill="#6b7280" font-size="12" font-weight="600">#</text>
+  <text x="340" y="636" fill="#6b7280" font-size="12" font-weight="600">ATENDENTE</text>
+  <text x="620" y="636" fill="#6b7280" font-size="12" font-weight="600">CONVERSAS</text>
+  <text x="780" y="636" fill="#6b7280" font-size="12" font-weight="600">TEMPO MÉDIO</text>
+  <text x="960" y="636" fill="#6b7280" font-size="12" font-weight="600">SATISFAÇÃO</text>
+  <line x1="296" y1="646" x2="1340" y2="646" stroke="#f3f4f6" stroke-width="1"/>
+  <!-- Row 1 -->
+  <text x="312" y="676" fill="#f59e0b" font-size="16">🥇</text>
+  <circle cx="360" cy="672" r="16" fill="#6366f1"/>
+  <text x="354" y="676" fill="#fff" font-size="10" font-weight="600">CS</text>
+  <text x="386" y="668" fill="#111827" font-size="13" font-weight="600">Carla Souza</text>
+  <text x="386" y="684" fill="#9ca3af" font-size="11">Atendente Senior</text>
+  <text x="620" y="676" fill="#374151" font-size="13" font-weight="600">342</text>
+  <text x="780" y="676" fill="#374151" font-size="13">1m 45s</text>
+  <text x="960" y="676" fill="#f59e0b" font-size="13">⭐⭐⭐⭐⭐ 4.9</text>
+  <!-- Row 2 -->
+  <text x="312" y="716" fill="#9ca3af" font-size="16">🥈</text>
+  <circle cx="360" cy="712" r="16" fill="#8b5cf6"/>
+  <text x="354" y="716" fill="#fff" font-size="10" font-weight="600">MR</text>
+  <text x="386" y="708" fill="#111827" font-size="13" font-weight="600">Marcos Ribeiro</text>
+  <text x="386" y="724" fill="#9ca3af" font-size="11">Atendente Pleno</text>
+  <text x="620" y="716" fill="#374151" font-size="13" font-weight="600">298</text>
+  <text x="780" y="716" fill="#374151" font-size="13">2m 12s</text>
+  <text x="960" y="716" fill="#f59e0b" font-size="13">⭐⭐⭐⭐⭐ 4.7</text>
+  <!-- Row 3 -->
+  <text x="312" y="756" fill="#cd7f32" font-size="16">🥉</text>
+  <circle cx="360" cy="752" r="16" fill="#10b981"/>
+  <text x="354" y="756" fill="#fff" font-size="10" font-weight="600">JL</text>
+  <text x="386" y="748" fill="#111827" font-size="13" font-weight="600">Julia Lima</text>
+  <text x="386" y="764" fill="#9ca3af" font-size="11">Atendente Junior</text>
+  <text x="620" y="756" fill="#374151" font-size="13" font-weight="600">256</text>
+  <text x="780" y="756" fill="#374151" font-size="13">2m 58s</text>
+  <text x="960" y="756" fill="#f59e0b" font-size="13">⭐⭐⭐⭐  4.5</text>
+</svg>

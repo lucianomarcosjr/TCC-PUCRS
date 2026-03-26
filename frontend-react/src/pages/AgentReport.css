@@ -1,115 +1,95 @@
 .agent-report {
-  padding: 2rem;
-  max-width: 1400px;
-  margin: 0 auto;
+  padding: 1.5rem 2rem;
 }
 
 .report-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 
-.report-header h1 {
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: var(--text);
-}
+.report-header h1 { font-size: 1.375rem; font-weight: 700; color: #111827; }
 
 .agent-select {
-  padding: 0.625rem 1rem;
-  border: 1.5px solid var(--border);
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
   border-radius: 8px;
-  font-size: 0.95rem;
-  background: var(--surface);
-  cursor: pointer;
-  min-width: 200px;
+  font-size: 0.875rem;
+  background: white;
 }
 
-.agent-select:focus {
-  outline: none;
-  border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 }
+
+.metric-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.metric-label { font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem; }
+.metric-value { font-size: 1.75rem; font-weight: 700; color: #111827; margin-bottom: 0.25rem; }
 
 .metric-comparison {
-  font-size: 0.75rem;
-  color: var(--text-secondary);
-  margin-top: 0.5rem;
+  font-size: 0.6875rem;
+  color: #6b7280;
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.metric-comparison span {
-  font-weight: 600;
-  padding: 0.125rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.7rem;
-}
-
 .metric-comparison .positive {
-  background: rgba(16, 185, 129, 0.1);
+  background: rgba(16, 185, 129, 0.12);
   color: #10b981;
-}
-
-.metric-comparison .negative {
-  background: rgba(239, 68, 68, 0.1);
-  color: #ef4444;
+  padding: 0.125rem 0.5rem;
+  border-radius: 10px;
+  font-weight: 600;
 }
 
 .chart-section {
-  background: var(--surface);
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  margin-bottom: 2rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
-.chart-section h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 1rem;
+.chart-section h3 { font-size: 1rem; font-weight: 700; color: #111827; margin-bottom: 1rem; }
+
+.chart-placeholder {
+  height: 200px;
+  background: linear-gradient(180deg, rgba(99,102,241,0.08), transparent);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9ca3af;
 }
 
 .recent-conversations {
-  background: var(--surface);
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.25rem;
 }
 
-.recent-conversations h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 1rem;
-}
+.recent-conversations h3 { font-size: 1rem; font-weight: 700; color: #111827; margin-bottom: 1rem; }
 
-.recent-conversations table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.recent-conversations th {
-  text-align: left;
-  padding: 0.75rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  border-bottom: 1px solid var(--border);
-}
-
-.recent-conversations td {
-  padding: 0.75rem;
-  border-bottom: 1px solid var(--border);
-  color: var(--text);
-  font-size: 0.95rem;
-}
+.recent-conversations table { width: 100%; border-collapse: collapse; }
+.recent-conversations th { text-align: left; font-size: 0.75rem; font-weight: 600; color: #6b7280; padding: 0.5rem 0; border-bottom: 1px solid #e5e7eb; }
+.recent-conversations td { padding: 0.625rem 0; font-size: 0.8125rem; color: #111827; border-bottom: 1px solid #f3f4f6; }
 
 .status-badge.resolved {
-  background: rgba(16, 185, 129, 0.1);
+  background: rgba(16, 185, 129, 0.12);
   color: #10b981;
+  padding: 0.25rem 0.75rem;
+  border-radius: 11px;
+  font-size: 0.6875rem;
+  font-weight: 600;
 }
