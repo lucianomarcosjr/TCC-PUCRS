@@ -1,4 +1,4 @@
-import { Layout } from '@/components/Layout';
+import { SettingsLayout } from '@/components/SettingsLayout';
 import './Billing.css';
 
 export function Billing() {
@@ -18,7 +18,7 @@ export function Billing() {
   ];
 
   return (
-    <Layout>
+    <SettingsLayout>
       <div className="billing-page">
         <h1>Planos e Pagamento</h1>
 
@@ -92,6 +92,6 @@ export function Billing() {
           <button className="btn-danger">Cancelar Assinatura</button>
         </div>
       </div>
-    </Layout>
+    </SettingsLayout>
   );
 }
